@@ -2,67 +2,80 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+//Given a binary tree, return the inorder traversal of its nodes' values.
+//
+//        For example:
+//        Given binary tree [1,null,2,3],
+//        1
+//        \
+//        2
+//        /
+//        3
+//        return [1,3,2].
+//
+//        Note: Recursive solution is trivial, could you do it iteratively?
+
 public class BTInorderTraversal {
 
-	// recursive, dfs traversal
+    // recursive, dfs traversal
     public static List<Integer> inorderTraversal(TreeNode root) {
-        List<Integer> res = new ArrayList<Integer>();
+        List<Integer> res = new ArrayList<>();
         helper(res, root);
         return res;
     }
-    
+
     private static void helper(List<Integer> res, TreeNode root) {
-    	if (root == null) {
-    		return;
-    	}
-    	helper(res, root.left);
-    	res.add(root.val);
-    	helper(res, root.right);
+        if (root == null) {
+            return;
+        }
+        helper(res, root.left);
+        res.add(root.val);
+        helper(res, root.right);
     }
-    
+
     // recursive, d & c
     public static List<Integer> inorderTraversal2(TreeNode root) {
-        List<Integer> res = new ArrayList<Integer>();
+        List<Integer> res = new ArrayList<>();
         if (root == null) {
             return res;
         }
         List<Integer> left = inorderTraversal2(root.left);
-        List<Integer> right = inorderTraversal2(root.right);       
+        List<Integer> right = inorderTraversal2(root.right);
         res.addAll(left);
         res.add(root.val);
         res.addAll(right);
         return res;
     }
-    
+
     // iterative, stack
     public static List<Integer> inorderTraversal3(TreeNode root) {
-    	List<Integer> res = new ArrayList<Integer>();
+        List<Integer> res = new ArrayList<>();
         if (root == null) {
-        	return res;
+            return res;
         }
-        Stack<TreeNode> stack = new Stack<TreeNode>();
+        Stack<TreeNode> stack = new Stack<>();
         stack.push(root);
         while (!stack.empty()) {
-        	if (root.left != null) {
-        		root = root.left;
-        		stack.push(root);        		
-        	} else {
-        		TreeNode temp = stack.pop();
-        		res.add(temp.val);
-        		if (temp.right != null) {
-        			root = temp.right;
-        			stack.push(root);      			
-        		}
-        	}
+            if (root.left != null) {
+                root = root.left;
+                stack.push(root);
+            } else {
+                TreeNode temp = stack.pop();
+                res.add(temp.val);
+                if (temp.right != null) {
+                    root = temp.right;
+                    stack.push(root);
+                }
+            }
         }
         return res;
     }
-    
+
     // iterative, morris, O(1) space
     public static List<Integer> inorderTraversal4(TreeNode root) {
-    	List<Integer> res = new ArrayList<Integer>();
+        List<Integer> res = new ArrayList<>();
         if (root == null) {
-        	return res;
+            return res;
         }
         TreeNode prev = null;
         while (root != null) {
@@ -87,21 +100,21 @@ public class BTInorderTraversal {
         return res;
     }
 
-	// unit test
-	public static void main(String[] args) {
-		TreeNode a = new TreeNode(1);
-		TreeNode b = new TreeNode(2);
-		TreeNode c = new TreeNode(3);
-		TreeNode d = new TreeNode(4);
-		TreeNode e = new TreeNode(5);
-		a.left = b;
-		a.right = c;
-		b.left = d;
-		b.right = e;
+    // unit test
+    public static void main(String[] args) {
+        TreeNode a = new TreeNode(1);
+        TreeNode b = new TreeNode(2);
+        TreeNode c = new TreeNode(3);
+        TreeNode d = new TreeNode(4);
+        TreeNode e = new TreeNode(5);
+        a.left = b;
+        a.right = c;
+        b.left = d;
+        b.right = e;
 
-		List<Integer> res = inorderTraversal4(a);
-		for (Integer i: res) {
-			System.out.println(i);
-		}
-	}
+        List<Integer> res = inorderTraversal4(a);
+        for (Integer i : res) {
+            System.out.println(i);
+        }
+    }
 }

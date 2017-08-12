@@ -1,7 +1,13 @@
+//Given n non-negative integers a1, a2, ..., an, where each represents a point at
+// coordinate (i, ai). n vertical lines are drawn such that the two endpoints of
+// line i is at (i, ai) and (i, 0). Find two lines, which together with x-axis
+// forms a container, such that the container contains the most water.
+//
+//        Note: You may not slant the container and n is at least 2.
 
 public class ContainerMostWater {
 
-	// iterative
+    // iterative
     public static int maxArea(int[] height) {
         if (height == null || height.length <= 1) {
             return 0;
@@ -20,10 +26,10 @@ public class ContainerMostWater {
         }
         return max;
     }
-    
+
     // unit test
     public static void main(String[] args) {
-    	int[] h = {3, 2, 5, 4, 1};
-    	System.out.println(maxArea(h));
+        int[] h = {3, 2, 5, 4, 1}; // 9
+        System.out.println(maxArea(h));
     }
 }

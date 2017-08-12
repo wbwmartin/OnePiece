@@ -1,3 +1,11 @@
+//Given a (decimal - e g  3.72) number that is passed in as a string,
+// return the binary representation that is passed in as a string.
+// If the number can not be represented accurately in binary, print “ERROR”
+//
+//        Example
+//        n = 3.72, return ERROR
+//
+//        n = 3.5, return 11.1
 
 public class BinaryRepresentation {
 
@@ -53,11 +61,13 @@ public class BinaryRepresentation {
         }
         return res.toString();
     }
-    
+
     // unit test
     public static void main(String[] args) {
-    	String a = "3.5";
-    	System.out.println(binaryRepresentation(a)); // "11.1"
+        String a = "3.5";
+        String b = "3.72";
+        System.out.println(binaryRepresentation(a)); // "11.1"
+        System.out.println(binaryRepresentation(b)); // "ERROR"
     }
-    
+
 }

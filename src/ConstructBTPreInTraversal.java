@@ -1,9 +1,13 @@
 import java.util.List;
 
+//Given preorder and inorder traversal of a tree, construct the binary tree.
+//
+//        Note:
+//        You may assume that duplicates do not exist in the tree.
 
 public class ConstructBTPreInTraversal {
-	
-	// recursive
+
+    // recursive
     public static TreeNode buildTree(int[] preorder, int[] inorder) {
         if (preorder == null || inorder == null) {
             return null;
@@ -13,7 +17,7 @@ public class ConstructBTPreInTraversal {
         }
         return helper(preorder, 0, preorder.length - 1, inorder, 0, inorder.length - 1);
     }
-    
+
     private static TreeNode helper(int[] preorder, int prestart, int preend, int[] inorder, int instart, int inend) {
         if (instart > inend) {
             return null;
@@ -24,7 +28,7 @@ public class ConstructBTPreInTraversal {
         root.right = helper(preorder, prestart + pos - instart + 1, preend, inorder, pos + 1, inend);
         return root;
     }
-    
+
     private static int findPosition(int[] inorder, int instart, int inend, int val) {
         int i;
         for (i = instart; i <= inend; i++) {
@@ -34,19 +38,19 @@ public class ConstructBTPreInTraversal {
         }
         return -1;
     }
-    
-	// unit test
-	public static void main(String[] args) {
-		int[] preorder = {1, 2, 4, 5, 3, 6, 7};
-		int[] inorder = {4, 2, 5, 1, 6, 3, 7};
-		TreeNode root = buildTree(preorder, inorder);
-		List<List<Integer>> res = BTLevelOrderTraversal.levelOrder(root);
-		for (List<Integer> i: res) {
-			for (Integer j: i){
-				System.out.print(j+" ");
-			}
-			System.out.println();
-		}
-	}
-	
+
+    // unit test
+    public static void main(String[] args) {
+        int[] preorder = {1, 2, 4, 5, 3, 6, 7};
+        int[] inorder = {4, 2, 5, 1, 6, 3, 7};
+        TreeNode root = buildTree(preorder, inorder);
+        List<List<Integer>> res = BTLevelOrderTraversal.levelOrder(root); // 1 | 2 3 | 4 5 6 7
+        for (List<Integer> i : res) {
+            for (Integer j : i) {
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+    }
+
 }

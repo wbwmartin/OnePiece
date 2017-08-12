@@ -1,9 +1,10 @@
+// Count the number of prime numbers less than a non-negative number, n.
 
 public class CountPrimes {
-	
-	// iterative
+
+    // iterative
     public static int countPrimes(int n) {
-    	if (n < 3) {
+        if (n < 3) {
             return 0;
         }
         boolean[] notPrime = new boolean[n];
@@ -18,9 +19,9 @@ public class CountPrimes {
         }
         return count;
     }
-    
+
     // unit test
     public static void main(String[] args) {
-    	System.out.println(countPrimes(10));
+        System.out.println(countPrimes(10));
     }
 }
