@@ -8,7 +8,7 @@ import java.util.*;
 //        f("2 + (3 / -5)") ===> "2 + 3 / -5"
 //        f("x+(y+z)+(t+(v+w))") ===> "x+y+z+t+v+w"
 
-public class RemoveParentheses {
+public class RemoveUnnecessaryParentheses {
 
     public static String removeParentheses(String s) {
         s = "+" + s + "+";
