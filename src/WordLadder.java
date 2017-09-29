@@ -3,18 +3,33 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Set;
 
+//Given two words (start and end), and a dictionary, find the length of shortest
+// transformation sequence from start to end, such that:
+//
+//        Only one letter can be changed at a time
+//        Each intermediate word must exist in the dictionary
+//        Notice
+//
+//        Return 0 if there is no such transformation sequence.
+//        All words have the same length.
+//        All words contain only lowercase alphabetic characters.
+//        Example
+//        Given:
+//        start = "hit"
+//        end = "cog"
+//        dict = ["hot","dot","dog","lot","log"]
+//        As one shortest transformation is "hit" -> "hot" -> "dot" -> "dog" -> "cog",
+//        return its length 5.
 
 public class WordLadder {
-	
-	// iterative, bfs
-    public static int ladderLength(String beginWord, String endWord, Set<String> wordDict) {
-        if (wordDict == null || wordDict.size() == 0) {
+
+    public static int ladderLength(String start, String end, Set<String> dict) {
+        if (dict == null || dict.size() == 0) {
             return 0;
         }
-        Queue<String> queue = new LinkedList<String>();
-        queue.offer(beginWord);
-        wordDict.remove(beginWord);
-        int length = 1;
+        Queue<String> queue = new LinkedList<>();
+        queue.offer(start);
+        int len = 1;
         while (!queue.isEmpty()) {
             int size = queue.size();
             for (int i = 0; i < size; i++) {
@@ -25,38 +40,38 @@ public class WordLadder {
                             continue;
                         }
                         String temp = replace(item, j, c);
-                        if (temp.equals(endWord)) {
-                            return length + 1;
+                        if (temp.equals(end)) {
+                            return len + 1;
                         }
-                        if (wordDict.contains(temp)) {
+                        if (dict.contains(temp)) {
                             queue.offer(temp);
-                            wordDict.remove(temp);
+                            dict.remove(temp);
                         }
                     }
                 }
             }
-            length++;
+            len++;
         }
         return 0;
     }
-    
+
     // replace a character
     private static String replace(String s, int i, char c) {
         char[] chars = s.toCharArray();
         chars[i] = c;
         return new String(chars);
     }
-    
+
     // unit test
     public static void main(String[] args) {
-    	String start = "hit";
-    	String end = "cog";
-    	Set<String> dict = new HashSet<String>();
-    	dict.add("hot");
-    	dict.add("dot");
-    	dict.add("dog");
-    	dict.add("lot");
-    	dict.add("log");
-    	System.out.println(ladderLength(start, end, dict));
+        String start = "hit";
+        String end = "cog";
+        Set<String> dict = new HashSet<>();
+        dict.add("hot");
+        dict.add("dot");
+        dict.add("dog");
+        dict.add("lot");
+        dict.add("log");
+        System.out.println(ladderLength(start, end, dict)); // 5
     }
 }

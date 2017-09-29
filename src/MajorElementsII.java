@@ -1,12 +1,14 @@
 import java.util.ArrayList;
 import java.util.List;
 
+//Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times.
+//        The algorithm should run in linear time and in O(1) space.
 
 public class MajorElementsII {
-	
-	// counter, O(n)
+
+    // counter, O(n)
     public static List<Integer> majorityElement(int[] nums) {
-        List<Integer> res = new ArrayList<Integer>();
+        List<Integer> res = new ArrayList<>();
         if (nums == null || nums.length == 0) {
             return res;
         }
@@ -36,7 +38,7 @@ public class MajorElementsII {
             res.add(candidate1);
             return res;
         }
-        for (Integer x: nums) {
+        for (Integer x : nums) {
             if (x == candidate1) {
                 count1++;
             }
@@ -52,10 +54,10 @@ public class MajorElementsII {
         }
         return res;
     }
-    
+
     // unit test
     public static void main(String[] args) {
-    	int[] nums = {1, 2, 5, 2, 1, 1, 1, 2};
-    	System.out.println(majorityElement(nums));
+        int[] nums = {1, 2, 5, 2, 1, 1, 1, 2};
+        System.out.println(majorityElement(nums)); // 1 2
     }
 }

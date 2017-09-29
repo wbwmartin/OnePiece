@@ -1,9 +1,37 @@
+// Given a binary tree, flatten it to a linked list in-place.
+//
+//        For example,
+//        Given
+//
+//        1
+//        / \
+//        2   5
+//        / \   \
+//        3   4   6
+//        The flattened tree should look like:
+//        1
+//        \
+//        2
+//        \
+//        3
+//        \
+//        4
+//        \
+//        5
+//        \
+//        6
+//
+//        Hints:
+//        If you notice carefully in the flattened tree,
+//        each node's right child points to the next node of a pre-order traversal.
+
+import java.util.List;
 
 public class FlattenBTLinkedList {
 
     static TreeNode lastnode = null;
     
-    // revursive
+    // recursive
     public static void flatten(TreeNode root) {
         if (root == null) {
             return;
@@ -47,6 +75,20 @@ public class FlattenBTLinkedList {
     
     // unit test
     public static void main(String[] args) {
-    	
+        TreeNode a = new TreeNode(1);
+        TreeNode b = new TreeNode(2);
+        TreeNode c = new TreeNode(3);
+        TreeNode d = new TreeNode(4);
+        TreeNode e = new TreeNode(5);
+        a.left = b;
+        a.right = c;
+        b.left = d;
+        b.right = e;
+        flatten(a);
+        TreeNode cur = a;
+        while (cur != null) {
+            System.out.print(cur.val + " "); // 1 2 4 5 3
+            cur = cur.right;
+        }
     }
 }

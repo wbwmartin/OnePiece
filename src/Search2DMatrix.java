@@ -1,8 +1,23 @@
+//Write an efficient algorithm that searches for a value in an m x n matrix.
+// This matrix has the following properties:
+//
+//        Integers in each row are sorted from left to right.
+//        The first integer of each row is greater than the last integer of the previous row.
+//        For example,
+//
+//        Consider the following matrix:
+//
+//        [
+//        [1,   3,  5,  7],
+//        [10, 11, 16, 20],
+//        [23, 30, 34, 50]
+//        ]
+//        Given target = 3, return true.
 
 public class Search2DMatrix {
-	
-	// binary search once
-	public static boolean searchMatrix(int[][] matrix, int target) {
+
+    // binary search once
+    public static boolean searchMatrix(int[][] matrix, int target) {
         if (matrix == null || matrix.length == 0) {
             return false;
         }
@@ -30,32 +45,12 @@ public class Search2DMatrix {
         }
         return false;
     }
-	
-	// different sorting, return #occurence
-	public int searchMatrix2(int[][] matrix, int target) {
-        int row = matrix.length - 1;
-        int col = 0;
-        int res = 0;
-        while (row >= 0 && col < matrix[0].length) {
-            int number = matrix[row][col];
-            if (number == target) {
-                res++;
-                row--;
-                col++;
-            } else if (number > target) {
-                row--;
-            } else {
-                col++;
-            }
-        }
-        return res;
-    }
 
-	// unit test
-	public static void main(String[] args) {
-		int[][] matrix = {{1, 3, 5, 7}, {10, 11, 16, 20}, {23, 30, 34, 50}};
-		int target = 3;
-		boolean result = searchMatrix(matrix, target);
-		System.out.println(result);
-	}
+    // unit test
+    public static void main(String[] args) {
+        int[][] matrix = {{1, 3, 5, 7}, {10, 11, 16, 20}, {23, 30, 34, 50}};
+        int target = 3;
+        boolean result = searchMatrix(matrix, target);
+        System.out.println(result); // true
+    }
 }

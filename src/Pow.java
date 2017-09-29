@@ -1,6 +1,7 @@
+// Implement pow(x, n).
+
 public class Pow {
 
-	// recursive
     public static double myPow(double x, int n) {
         if (n == 0) {
             return 1;
@@ -13,21 +14,17 @@ public class Pow {
             sign = true;
             n *= -1;
         }
-        double res = 0;
+        double res;
         if (n % 2 == 0) {
             res = myPow(x * x, n / 2);
         } else {
             res = myPow(x * x, n / 2) * x;
         }
-        if (sign) {
-            return 1 / res;
-        } else {
-            return res;
-        }
+        return sign ? 1 / res : res;
     }
-    
+
     // unit test
     public static void main(String[] args) {
-    	System.out.println(myPow(2, -1));
+        System.out.println(myPow(2, -1));
     }
 }

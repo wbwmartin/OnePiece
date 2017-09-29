@@ -1,35 +1,15 @@
+//Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
+//
+//        For example,
+//        Given [0,1,0,2,1,0,1,3,2,1,2,1], return 6.
+//
+//
+//        The above elevation map is represented by array [0,1,0,2,1,0,1,3,2,1,2,1]. In this case, 6 units of rain water (blue section) are being trapped.
 
 public class TrappingRainWater {
-	
-	// iterative, O(n) time, O(n) space
-    public static int trap(int[] height) {
-        if (height == null || height.length <= 1) {
-            return 0;
-        }
-        int sum = 0;
-        int max = 0;
-        int[] left = new int[height.length];
-        int[] right = new int[height.length];
-        for (int i = 0; i < height.length; i++) {
-            left[i] = max;
-            max = Math.max(max, height[i]);
-        }
-        max = 0;
-        for (int i = height.length - 1; i >= 0; i--) {
-            right[i] = max;
-            max = Math.max(max, height[i]);
-        }
-        for (int i = 0; i < height.length; i++) {
-            int diff = Math.min(left[i], right[i]) - height[i];
-            if (diff > 0) {
-                sum += diff;
-            }
-        }
-        return sum;
-    }
-    
-    // O(n) time, O(1) space
-    public static int trap2(int[] heights) {
+
+    public static int trapRainWater(int[] heights) {
+        // write your code here
         if (heights == null || heights.length == 0) {
             return 0;
         }
@@ -37,29 +17,29 @@ public class TrappingRainWater {
         int left = 0;
         int right = heights.length - 1;
         int min = Math.min(heights[left], heights[right]);
-        boolean flag = min == heights[left] ? true : false;
-        
+
         while (left < right) {
-            if (flag) {
+            int h;
+            if (heights[left] < heights[right]) {
                 left++;
+                h = heights[left];
             } else {
                 right--;
+                h = heights[right];
             }
-            int h = flag ? heights[left] : heights[right];
             if (h < min) {
                 res += min - h;
             } else {
                 min = Math.min(heights[left], heights[right]);
-                flag = min == heights[left] ? true : false;
             }
         }
         return res;
     }
-    
+
     // unit test
     public static void main(String[] args) {
-    	int[] h = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
-    	System.out.println(trap2(h)); // 6
+        int[] h = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
+        System.out.println(trapRainWater(h)); // 6
     }
 }
 

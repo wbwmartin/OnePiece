@@ -1,16 +1,23 @@
+//Two elements of a binary search tree (BST) are swapped by mistake.
+//
+//        Recover the tree without changing its structure.
+//
+//        Note:
+//        A solution using O(n) space is pretty straight forward.
+//          Could you devise a constant space solution?
 
 public class RecoverBST {
 
-    private static TreeNode first = null;
-    private static TreeNode second = null;
-    private static TreeNode prev = new TreeNode(Integer.MIN_VALUE);
+    private static TreeNode FIRST = null;
+    private static TreeNode SECOND = null;
+    private static TreeNode PREV = new TreeNode(Integer.MIN_VALUE);
     
     // recursion, O(1) space
     public static void recoverTree(TreeNode root) {
         traverse(root);
-        int temp = first.val;
-        first.val = second.val;
-        second.val = temp;
+        int temp = FIRST.val;
+        FIRST.val = SECOND.val;
+        SECOND.val = temp;
     }
     
     private static void traverse(TreeNode root) {
@@ -18,13 +25,16 @@ public class RecoverBST {
             return;
         }
         traverse(root.left);
-        if (first == null && root.val < prev.val) {
-            first = prev;
+        if (FIRST == null && root.val < PREV.val) {
+            FIRST = PREV;
         }
-        if (first != null && root.val < prev.val) {
-            second = root;
+        if (FIRST != null && root.val < PREV.val) {
+            SECOND = root;
         }
-        prev = root;
+        if (root.val < PREV.val) {
+
+        }
+        PREV = root;
         traverse(root.right);
     }
     
@@ -35,7 +45,7 @@ public class RecoverBST {
         }
         TreeNode node1 = null;
         TreeNode node2 = null;
-        TreeNode prev = null;
+        TreeNode prev;
         TreeNode tail = null;
         while (root != null) {
             if (root.left == null) {
@@ -75,19 +85,6 @@ public class RecoverBST {
     
 	// unit test
 	public static void main(String[] args) {
-		/*TreeNode a = new TreeNode(4);
-		TreeNode b = new TreeNode(2);
-		TreeNode c = new TreeNode(5);
-		TreeNode d = new TreeNode(1);
-		TreeNode e = new TreeNode(3);
-		TreeNode f = new TreeNode(6);
-		TreeNode g = new TreeNode(7);
-		a.left = b;
-		a.right = c;
-		b.left = d;
-		b.right = e;	
-		c.left = f;
-		c.right = g;*/
 		TreeNode a = new TreeNode(2);
 		TreeNode b = new TreeNode(3);
 		TreeNode c = new TreeNode(1);

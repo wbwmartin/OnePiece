@@ -1,7 +1,8 @@
+// Write a function to find the longest common prefix string amongst an array of strings.
 
 public class LongestCommonPrefix {
-	
-	// iterative
+
+    // iterative
     public static String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0) {
             return "";
@@ -18,10 +19,10 @@ public class LongestCommonPrefix {
         }
         return res.toString();
     }
-    
+
     // unit test
     public static void main(String[] args) {
-    	String[] strs = {"abc", "abcd", "abcde", "ab"};
-    	System.out.println(longestCommonPrefix(strs)); // "ab"
+        String[] strs = {"abc", "abcd", "abcde", "ab"};
+        System.out.println(longestCommonPrefix(strs)); // "ab"
     }
 }

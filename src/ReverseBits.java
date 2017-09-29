@@ -1,7 +1,15 @@
+//Reverse bits of a given 32 bits unsigned integer.
+//
+//        For example, given input 43261596 (represented in binary as
+//          00000010100101000001111010011100), return 964176192
+//          (represented in binary as 00111001011110000010100101000000).
+//
+//        Follow up:
+//        If this function is called many times, how would you optimize it?
 
 public class ReverseBits {
 
-	// iterative, bit
+    // iterative, bit
     public static int reverseBits(int n) {
         int reverse = 0;
         for (int i = 0; i < 32; i++) {
@@ -10,17 +18,17 @@ public class ReverseBits {
         }
         return reverse;
     }
-    
+
     // no space
     public static int reverseBits0(int n) {
-    	for (int i = 0, j = 31; i < j; i++, j--) {
-    		if ((n >> i & 1) != (n >> j & 1)) {
-    			n ^= (1 << i) ^ (1 << j);
-    		}
-    	}
-    	return n;
+        for (int i = 0, j = 31; i < j; i++, j--) {
+            if ((n >> i & 1) != (n >> j & 1)) {
+                n ^= (1 << i) ^ (1 << j);
+            }
+        }
+        return n;
     }
-    
+
     // follow up
     public static int reverseBits2(int n) {
         int reverse = 0;
@@ -31,10 +39,10 @@ public class ReverseBits {
         }
         return reverse;
     }
-    
+
     // unit test
     public static void main(String[] args) {
-    	int i = 43261596;
-    	System.out.println(reverseBits0(i)); // 964176192
+        int i = 43261596;
+        System.out.println(reverseBits0(i)); // 964176192
     }
 }

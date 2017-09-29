@@ -1,59 +1,47 @@
 import java.util.ArrayList;
 import java.util.List;
 
+//Given a triangle, find the minimum path sum from top to bottom. Each step you may move to adjacent numbers on the row below.
+//
+//        Notice
+//
+//        Bonus point if you are able to do this using only O(n) extra space, where n is the total number of rows in the triangle.
+//
+//        Have you met this question in a real interview? Yes
+//        Example
+//        Given the following triangle:
+//
+//        [
+//        [2],
+//        [3,4],
+//        [6,5,7],
+//        [4,1,8,3]
+//        ]
+//        The minimum path sum from top to bottom is 11 (i.e., 2 + 3 + 5 + 1 = 11).
+//
+
 public class Triangle {
-	
-	// dp
-    public static int minimumTotal(List<List<Integer>> triangle) {
-        if (triangle == null || triangle.size() == 0) {
+
+    public static int minimumTotal(int[][] triangle) {
+        if (triangle == null || triangle.length == 0 || triangle[0].length == 0) {
             return 0;
         }
-        int n = triangle.size();
-        int sum[][] = new int[n][n];
-        for (int i = 0; i < n; i++) {
-            sum[n - 1][i] = triangle.get(n - 1).get(i);
-        }
-        for (int i = n - 2; i >= 0; i--) {
-            for (int j = 0; j <= i; j++) {
-                sum[i][j] = Math.min(sum[i + 1][j], sum[i + 1][j + 1]) + triangle.get(i).get(j);
-            }
-        }
-        return sum[0][0];
-    }
-    
-    // dp
-    public static int minimumTotal2(List<List<Integer>> triangle) {
-        if (triangle == null || triangle.size() == 0) {
-            return 0;
-        }
-        int n = triangle.size();
+        int n = triangle.length;
         int[] res = new int[n];
         for (int i = 0; i < n; i++) {
-            res[i] = triangle.get(n - 1).get(i);
+            res[i] = triangle[n - 1][i];
         }
         for (int i = n - 2; i >= 0; i--) {
             for (int j = 0; j <= i; j++) {
-                res[j] = Math.min(res[j], res[j + 1]) + triangle.get(i).get(j);
+                res[j] = triangle[i][j] + Math.min(res[j], res[j + 1]);
             }
         }
         return res[0];
     }
-    
+
     // unit test
     public static void main(String[] args) {
-    	List<Integer> a = new ArrayList<Integer>();
-    	a.add(2);
-    	List<Integer> b = new ArrayList<Integer>();
-    	b.add(3);
-    	b.add(4);
-    	List<Integer> c = new ArrayList<Integer>();
-    	c.add(6);
-    	c.add(5);
-    	c.add(7);
-    	List<List<Integer>> list = new ArrayList<List<Integer>>();
-    	list.add(a);
-    	list.add(b);
-    	list.add(c);  	
-    	System.out.println(minimumTotal2(list));
+        int[][] triangle = {{2}, {3, 4}, {6, 5, 7}, {4, 1, 8, 3}};
+        System.out.println(minimumTotal(triangle)); // 11
     }
 }

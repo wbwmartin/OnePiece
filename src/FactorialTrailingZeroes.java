@@ -1,7 +1,10 @@
+//Given an integer n, return the number of trailing zeroes in n!.
+//
+//        Note: Your solution should be in logarithmic time complexity.
 
 public class FactorialTrailingZeroes {
 
-	// iterative
+    // iterative
     public static int trailingZeroes(int n) {
         if (n <= 0) {
             return 0;
@@ -13,9 +16,9 @@ public class FactorialTrailingZeroes {
         }
         return count;
     }
-    
+
     // unit test
     public static void main(String[] args) {
-    	System.out.println(trailingZeroes(25)); // 6
+        System.out.println(trailingZeroes(25)); // 6
     }
 }

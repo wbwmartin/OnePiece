@@ -1,8 +1,14 @@
+//Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
+//
+//        (i.e., 0 1 2 4 5 6 7 might become 4 5 6 7 0 1 2).
+//
+//        You are given a target value to search. If found in the array return its index, otherwise return -1.
+//
+//        You may assume no duplicate exists in the array.
 
 public class SearchRotatedSortedArray {
-	
-	// binary search
-	public static int search(int[] nums, int target) {
+
+    public static int search(int[] nums, int target) {
         int start = 0;
         int end = nums.length - 1;
         int mid;
@@ -32,22 +38,12 @@ public class SearchRotatedSortedArray {
             return -1;
         }
     }
-	
-	// with duplicate, linear
-	public static boolean search2(int[] nums, int target) {
-        for (int number: nums) {
-            if (number == target) {
-                return true;
-            }
-        }
-        return false;
+
+    // unit test
+    public static void main(String[] args) {
+        int[] nums = {4, 5, 6, 7, 0, 1, 2};
+        int target = 5;
+        int result = search(nums, target); // 1
+        System.out.println(result);
     }
-	
-	// unit test
-	public static void main(String[] args) {
-		int[] nums = {4, 5, 6, 7, 0, 1, 2};
-		int target = 5;
-		int result = search(nums, target);
-		System.out.println(result);
-	}
 }

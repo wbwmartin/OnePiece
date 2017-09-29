@@ -1,7 +1,10 @@
+//Given a m x n grid filled with non-negative numbers, find a path from top left to
+// bottom right which minimizes the sum of all numbers along its path.
+//
+//        Note: You can only move either down or right at any point in time.
 
 public class MinPathSum {
 
-	// dp
     public static int minPathSum(int[][] grid) {
         int m = grid.length;
         int n = grid[0].length;
@@ -18,10 +21,10 @@ public class MinPathSum {
         }
         return grid[m - 1][n - 1];
     }
-    
+
     // unit test
     public static void main(String[] args) {
-    	int[][] grid = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-    	System.out.println(minPathSum(grid));
+        int[][] grid = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+        System.out.println(minPathSum(grid)); // 21
     }
 }

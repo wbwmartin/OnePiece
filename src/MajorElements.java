@@ -2,10 +2,14 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
+//Given an array of size n, find the majority element.
+// The majority element is the element that appears more than ⌊ n/2 ⌋ times.
+//
+// You may assume that the array is non-empty and the majority element always exist in the array.
 
 public class MajorElements {
 
-	// sort, O(nlogn)
+    // sort, O(nlogn)
     public static int majorityElement(int[] nums) {
         if (nums == null || nums.length == 0) {
             return -1;
@@ -13,7 +17,7 @@ public class MajorElements {
         Arrays.sort(nums);
         return nums[nums.length / 2];
     }
-    
+
     // hashmap, O(n), O(n)
     public static int majorityElement2(int[] nums) {
         if (nums == null || nums.length == 0) {
@@ -23,7 +27,7 @@ public class MajorElements {
             return nums[0];
         }
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();
-        for (Integer x: nums) {
+        for (Integer x : nums) {
             if (map.containsKey(x)) {
                 if (map.get(x) + 1 > nums.length / 2) {
                     return x;
@@ -35,7 +39,7 @@ public class MajorElements {
         }
         return -1;
     }
-    
+
     // bit, O(n)
     public static int majorityElement3(int[] nums) {
         if (nums == null || nums.length == 0) {
@@ -53,7 +57,7 @@ public class MajorElements {
         }
         return res;
     }
-    
+
     // counter, O(n)
     public static int majorityElement4(int[] nums) {
         if (nums == null || nums.length == 0) {
@@ -61,7 +65,7 @@ public class MajorElements {
         }
         int count = 0;
         int candidate = nums[0];
-        for (Integer x: nums) {
+        for (Integer x : nums) {
             if (count == 0) {
                 candidate = x;
             }
@@ -73,10 +77,13 @@ public class MajorElements {
         }
         return candidate;
     }
-    
+
     // unit test
     public static void main(String[] args) {
-    	int[] nums = {1, 2, 5, 2, 1, 1, 1};
-    	System.out.println(majorityElement4(nums)); // 1
+        int[] nums = {1, 2, 5, 2, 1, 1, 1};
+        System.out.println(majorityElement(nums)); // 1
+        System.out.println(majorityElement2(nums)); // 1
+        System.out.println(majorityElement3(nums)); // 1
+        System.out.println(majorityElement4(nums)); // 1
     }
 }

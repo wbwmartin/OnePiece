@@ -1,8 +1,18 @@
+//Given an array of integers sorted in ascending order, find the starting and ending position of a given target value.
+//
+//        Your algorithm's runtime complexity must be in the order of O(log n).
+//
+//        If the target is not found in the array, return [-1, -1].
+//
+//        For example,
+//        Given [5, 7, 7, 8, 8, 10] and target value 8,
+//        return [3, 4].
+
 
 public class SearchRange {
 
-	// binary search
-	public static int[] searchRange(int[] nums, int target) {
+    // binary search
+    public static int[] searchRange(int[] nums, int target) {
         int[] bound = {-1, -1};
         if (nums == null || nums.length == 0) {
             return bound;
@@ -23,7 +33,7 @@ public class SearchRange {
         } else if (nums[end] == target) {
             bound[0] = end;
         }
-        
+
         start = 0;
         end = nums.length - 1;
         while (start + 1 < end) {
@@ -39,20 +49,18 @@ public class SearchRange {
         } else if (nums[start] == target) {
             bound[1] = start;
         }
-        
+
         return bound;
     }
-	
-	// unit test
-	public static void main(String[] args) {
-		int[] nums = {5, 7, 7, 8, 8, 10};
-		int target = 8;
-		int[] bound = searchRange(nums, target);
-		for (int i: bound) {
-			System.out.print(i + " ");
-		}
-		//long b = Math.abs(Integer.MIN_VALUE);
-		//System.out.println(Math.abs(Integer.MIN_VALUE));
-	}
+
+    // unit test
+    public static void main(String[] args) {
+        int[] nums = {5, 7, 7, 8, 8, 10};
+        int target = 8;
+        int[] bound = searchRange(nums, target);
+        for (int i : bound) {
+            System.out.print(i + " "); // 3 4
+        }
+    }
 
 }

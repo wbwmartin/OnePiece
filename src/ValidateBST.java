@@ -1,10 +1,27 @@
 import java.util.Stack;
 
+//Given a binary tree, determine if it is a valid binary search tree (BST).
+//
+//        Assume a BST is defined as follows:
+//
+//        The left subtree of a node contains only nodes with keys less than the node's key.
+//        The right subtree of a node contains only nodes with keys greater than the node's key.
+//        Both the left and right subtrees must also be binary search trees.
+//        Example 1:
+//        2
+//        / \
+//        1   3
+//        Binary tree [2,1,3], return true.
+//        Example 2:
+//        1
+//        / \
+//        2   3
+//        Binary tree [1,2,3], return false.
+
 public class ValidateBST {
-	
-	// morris
-	public static boolean isValidBST0(TreeNode root) {
-        // write your code here
+
+    // morris
+    public static boolean isValidBST0(TreeNode root) {
         if (root == null) {
             return true;
         }
@@ -37,13 +54,13 @@ public class ValidateBST {
         }
         return true;
     }
-	
-	// iterative
+
+    // iterative
     public static boolean isValidBST(TreeNode root) {
         if (root == null) {
             return true;
         }
-        Stack<TreeNode> stack = new Stack<TreeNode>();
+        Stack<TreeNode> stack = new Stack<>();
         stack.push(root);
         long prev = Long.MIN_VALUE;
         while (!stack.isEmpty()) {
@@ -64,7 +81,7 @@ public class ValidateBST {
         }
         return true;
     }
-    
+
     // recursive, bound
     public static boolean isValidBST2(TreeNode root) {
         if (root == null) {
@@ -72,7 +89,7 @@ public class ValidateBST {
         }
         return helper(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
-    
+
     private static boolean helper(TreeNode root, long low, long high) {
         if (root == null) {
             return true;
@@ -82,18 +99,18 @@ public class ValidateBST {
         }
         return helper(root.left, low, root.val) && helper(root.right, root.val, high);
     }
-    
-	// unit test
-	public static void main(String[] args) {
-		TreeNode a = new TreeNode(4);
-		TreeNode b = new TreeNode(2);
-		TreeNode c = new TreeNode(5);
-		TreeNode d = new TreeNode(1);
-		TreeNode e = new TreeNode(3);
-		a.left = b;
-		a.right = c;
-		b.left = d;
-		b.right = e;	
-		System.out.println(isValidBST0(a));
-	}
+
+    // unit test
+    public static void main(String[] args) {
+        TreeNode a = new TreeNode(4);
+        TreeNode b = new TreeNode(2);
+        TreeNode c = new TreeNode(5);
+        TreeNode d = new TreeNode(1);
+        TreeNode e = new TreeNode(3);
+        a.left = b;
+        a.right = c;
+        b.left = d;
+        b.right = e;
+        System.out.println(isValidBST0(a)); // true
+    }
 }

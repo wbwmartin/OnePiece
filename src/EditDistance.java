@@ -1,7 +1,15 @@
+//Given two words word1 and word2, find the minimum number of steps required to
+// convert word1 to word2. (each operation is counted as 1 step.)
+//
+//        You have the following 3 operations permitted on a word:
+//
+//        Insert a character
+//        Delete a character
+//        Replace a character
 
 public class EditDistance {
-	
-	// dp
+
+    // dp
     public static int minDistance(String word1, String word2) {
         if (word1 == null || word2 == null) {
             return 0;
@@ -11,7 +19,7 @@ public class EditDistance {
         for (int i = 0; i <= m; i++) {
             res[i][0] = i;
         }
-        for (int i = 1; i <=n; i++) {
+        for (int i = 1; i <= n; i++) {
             res[0][i] = i;
         }
         for (int i = 1; i <= m; i++) {
@@ -28,9 +36,9 @@ public class EditDistance {
 
     // unit test
     public static void main(String[] args) {
-    	String a = "make";
-    	String b = "sale";
-    	System.out.println(minDistance(a, b));
+        String a = "make";
+        String b = "sale";
+        System.out.println(minDistance(a, b)); // 2
     }
 
 }

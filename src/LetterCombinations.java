@@ -1,55 +1,48 @@
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
+//Given a digit string excluded 01, return all possible letter combinations that the number could represent.
+//
+//        A mapping of digit to letters (just like on the telephone buttons) is given below.
 
 public class LetterCombinations {
-	
-	// recursive
-	public static List<String> letterCombinations(String digits) {
-        List<String> res = new ArrayList<String>();
+
+    public static List<String> letterCombinations(String digits) {
+        List<String> res = new ArrayList<>();
         if (digits == null || digits.length() == 0) {
             return res;
         }
-        
-        Map<Character, char[]> hp = new HashMap<Character, char[]>();
-        hp.put('0', new char[]{});
-        hp.put('1', new char[]{});
-        hp.put('2', new char[]{'a', 'b', 'c'});
-        hp.put('3', new char[]{'d', 'e', 'f'});
-        hp.put('4', new char[]{'g', 'h', 'i'});
-        hp.put('5', new char[]{'j', 'k', 'l'});
-        hp.put('6', new char[]{'m', 'n', 'o'});
-        hp.put('7', new char[]{'p', 'q', 'r', 's'});
-        hp.put('8', new char[]{'t', 'u', 'v'});
-        hp.put('9', new char[]{'w', 'x', 'y', 'z'});
-        
+        for (char c : digits.toCharArray()) {
+            if (!Character.isDigit(c) || Integer.valueOf(c) < 2) {
+                return res;
+            }
+        }
+        String[] map = {"abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
         StringBuilder sb = new StringBuilder();
-        helper(res, sb, digits, hp);
+        helper(res, sb, map, digits);
         return res;
     }
-    
-    private static void helper(List<String> res, StringBuilder sb, String digits, Map<Character, char[]> hp) {
+
+    private static void helper(List<String> res, StringBuilder sb, String[] map, String digits) {
         if (sb.length() == digits.length()) {
             res.add(sb.toString());
             return;
         }
-        
-        for (char c: hp.get(digits.charAt(sb.length()))) {
+        int key = digits.charAt(sb.length()) - '0' - 2;
+        for (char c : map[key].toCharArray()) {
             sb.append(c);
-            helper(res, sb, digits, hp);
+            helper(res, sb, map, digits);
             sb.deleteCharAt(sb.length() - 1);
         }
     }
 
     // unit test
-	public static void main(String[] args) {
-		String num = "23";
-		List<String> res = letterCombinations(num);
-		for (String i: res) {
-			System.out.println(i);
-		}	
-	}
+    public static void main(String[] args) {
+        String num = "23";
+        List<String> res = letterCombinations(num);
+        for (String i : res) {
+            System.out.println(i);
+        }
+    }
 
 }

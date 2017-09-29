@@ -1,7 +1,7 @@
+// Given an integer, write a function to determine if it is a power of two.
 
 public class PowerTwo {
-	
-	// iterative
+
     public static boolean isPowerOfTwo(int n) {
         if (n <= 0) {
             return false;
@@ -13,12 +13,12 @@ public class PowerTwo {
     }
 
     // bit
-	public static boolean isPowerOfTwo2(int n) {  
-		return n > 0 && (n & (n - 1)) == 0;  
-	}
-	
+    public static boolean isPowerOfTwo2(int n) {
+        return n > 0 && (n & (n - 1)) == 0;
+    }
+
     // unit test
     public static void main(String[] args) {
-    	System.out.println(isPowerOfTwo2(8));
+        System.out.println(isPowerOfTwo2(8)); // true
     }
 }

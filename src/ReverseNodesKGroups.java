@@ -1,3 +1,21 @@
+import Utils.ListNode;
+
+//Given a linked list, reverse the nodes of a linked list k at a time and return its modified list.
+//
+//        k is a positive integer and is less than or equal to the length of the linked list.
+// If the number of nodes is not a multiple of k then left-out nodes in the end should remain as it is.
+//
+//        You may not alter the values in the nodes, only nodes itself may be changed.
+//
+//        Only constant memory is allowed.
+//
+//        For example,
+//        Given this linked list: 1->2->3->4->5
+//
+//        For k = 2, you should return: 2->1->4->3->5
+//
+//        For k = 3, you should return: 3->2->1->4->5
+
 
 public class ReverseNodesKGroups {
 
@@ -28,7 +46,7 @@ public class ReverseNodesKGroups {
         head.next = cur;
         return dummy.next;
     }
-    
+
     private static int getLength(ListNode head) {
         int count = 0;
         while (head != null) {
@@ -37,22 +55,22 @@ public class ReverseNodesKGroups {
         }
         return count;
     }
-    
-	// unit test
-	public static void main(String[] args) {
-		ListNode a = new ListNode(1);
-		ListNode b = new ListNode(2);
-		ListNode c = new ListNode(3);
-		ListNode d = new ListNode(4);
-		ListNode e = new ListNode(5);
-		a.next = b;
-		b.next = c;
-		c.next = d;
-		d.next = e;
-		ListNode res = reverseKGroup(a, 3);
-		while (res != null) {
-			System.out.print(res.val + " "); // 3 2 1 4 5
-			res = res.next;
-		}
-	}
+
+    // unit test
+    public static void main(String[] args) {
+        ListNode a = new ListNode(1);
+        ListNode b = new ListNode(2);
+        ListNode c = new ListNode(3);
+        ListNode d = new ListNode(4);
+        ListNode e = new ListNode(5);
+        a.next = b;
+        b.next = c;
+        c.next = d;
+        d.next = e;
+        ListNode res = reverseKGroup(a, 3);
+        while (res != null) {
+            System.out.print(res.val + " "); // 3 2 1 4 5
+            res = res.next;
+        }
+    }
 }

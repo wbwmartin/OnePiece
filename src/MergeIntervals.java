@@ -14,16 +14,11 @@ public class MergeIntervals {
 	}
 
     public static List<Interval> merge(List<Interval> intervals) {
-        List<Interval> res = new ArrayList<Interval>();
+        List<Interval> res = new ArrayList<>();
         if (intervals == null || intervals.size() == 0) {
             return res;
         }
-        Comparator<Interval> comparator = new Comparator<Interval>() {
-            public int compare(Interval i1, Interval i2) {
-            	return i1.start - i2.start; 
-            }
-        };
-        Collections.sort(intervals, comparator);
+        Collections.sort(intervals, Comparator.comparing((Interval interval) -> interval.start));
         for (int i = 0; i < intervals.size(); i++) {
             Interval cur = intervals.get(i);
             if (res.isEmpty()) {
@@ -42,13 +37,13 @@ public class MergeIntervals {
     
     // unit test
     public static void main(String[] args) {
-    	List<Interval> a = new ArrayList<Interval>();
+    	List<Interval> a = new ArrayList<>();
     	a.add(new Interval(1, 3));
     	a.add(new Interval(2, 6));
     	a.add(new Interval(8, 10));
     	a = merge(a);
     	for (Interval i: a) {
-    		System.out.println(i.start + " " + i.end);
+    		System.out.println(i.start + " " + i.end); // 1 6 | 8 10
     	}
     }
 }

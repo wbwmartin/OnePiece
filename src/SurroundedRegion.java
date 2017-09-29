@@ -1,10 +1,26 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
+//Given a 2D board containing 'X' and 'O', capture all regions surrounded by 'X'.
+//
+//		A region is captured by flipping all 'O''s into 'X''s in that surrounded region.
+//
+//		Have you met this question in a real interview? Yes
+//		Example
+//		X X X X
+//		X O O X
+//		X X O X
+//		X O X X
+//		After capture all regions surrounded by 'X', the board should be:
+//
+//		X X X X
+//		X X X X
+//		X X X X
+//		X O X X
 
 public class SurroundedRegion {
 
-	// recursive
+    // recursive
     public static void solve(char[][] board) {
         if (board == null || board.length == 0 || board[0].length == 0) {
             return;
@@ -12,12 +28,20 @@ public class SurroundedRegion {
         int m = board.length;
         int n = board[0].length;
         for (int i = 0; i < m; i++) {
-            helper2(board, i, 0);
-            helper2(board, i, n - 1);
+            if (board[i][0] == 'O') {
+                bfs(board, i, 0);
+            }
+            if (board[i][n - 1] == 'O') {
+                bfs(board, i, n - 1);
+            }
         }
         for (int j = 1; j < n - 1; j++) {
-            helper2(board, 0, j);
-            helper2(board, m - 1, j);
+            if (board[0][j] == 'O') {
+                bfs(board, 0, j);
+            }
+            if (board[m - 1][j] == 'O') {
+                bfs(board, m - 1, j);
+            }
         }
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
@@ -31,60 +55,56 @@ public class SurroundedRegion {
     }
     
 /*    // dfs, bad: overflow
-    private static void helper(char[][] board, int row, int col) {
+    private static void dfs(char[][] board, int row, int col) {
         if (row < 0 || row >= board.length || col < 0 || col >= board[0].length || board[row][col] != 'O') {
             return;
         }
         board[row][col] = '#';
-        helper(board, row + 1, col);
-        helper(board, row - 1, col);
-        helper(board, row, col + 1);
-        helper(board, row, col - 1);
+        dfs(board, row + 1, col);
+        dfs(board, row - 1, col);
+        dfs(board, row, col + 1);
+        dfs(board, row, col - 1);
     }*/
-    
+
     // bfs, good: queue
-    private static void helper2(char[][] board, int row, int col) {
-    	if (board[row][col] != 'O') {
-    		return;
-    	}
-    	board[row][col] = '#';
-    	Queue<Integer> queue = new LinkedList<Integer>();
-    	int code = row * board[0].length + col;
-    	queue.offer(code);
-    	while (!queue.isEmpty()) {
-    		code = queue.poll();
-    		int i = code / board[0].length;
-    		int j = code % board[0].length;
-    		if (i > 0 && board[i - 1][j] == 'O') {
-    			queue.offer((i - 1) * board[0].length + j);
-    			board[i - 1][j] = '#';
-    		}
-    		if (i < board.length - 1 && board[i + 1][j] == 'O') {
-    			queue.offer((i + 1) * board[0].length + j);
-    			board[i + 1][j] = '#';
-    		}
-    		if (j > 0 && board[i][j - 1] == 'O') {
-    			queue.offer(i * board[0].length + j - 1);
-    			board[i][j - 1] = '#';
-    		}
-    		if (j < board[0].length - 1 && board[i][j + 1] == 'O') {
-    			queue.offer(i * board[0].length + j + 1);
-    			board[i][j + 1] = '#';
-    		}
-    	}   	
+    private static void bfs(char[][] board, int row, int col) {
+        if (board[row][col] != 'O') {
+            return;
+        }
+        int m = board.length;
+        int n = board[0].length;
+        board[row][col] = '#';
+        Queue<Integer> queue = new LinkedList<>();
+        int[] dx = {0, 0, 1, -1};
+        int[] dy = {1, -1, 0, 0};
+        int code = row * n + col;
+        queue.offer(code);
+        while (!queue.isEmpty()) {
+            code = queue.poll();
+            int x = code / n;
+            int y = code % n;
+            for (int i = 0; i < 4; i++) {
+                int nx = x + dx[i];
+                int ny = y + dy[i];
+                if (nx >= 0 && nx < m && ny >= 0 && ny < n && board[nx][ny] == 'O') {
+                    queue.offer(nx * n + ny);
+                    board[nx][ny] = '#';
+                }
+            }
+        }
     }
-    
-    
+
+
     // unit test
     public static void main(String[] args) {
-    	char[][] matrix = {{'X', 'X', 'X', 'X'}, {'X', 'O', 'O', 'X'}, 
-    			{'X', 'X', 'O', 'X'}, {'X', 'O', 'X', 'X'}};
-    	solve(matrix);
-    	for (int i = 0; i < matrix.length; i++) {
-    		for (int j = 0; j < matrix[0].length; j++) {
-    			System.out.print(matrix[i][j] + " ");
-    		}
-    		System.out.println();
-    	}
+        char[][] matrix = {{'X', 'X', 'X', 'X'}, {'X', 'O', 'O', 'X'},
+                {'X', 'X', 'O', 'X'}, {'X', 'O', 'X', 'X'}};
+        solve(matrix);
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[0].length; j++) {
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
 }

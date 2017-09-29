@@ -1,3 +1,14 @@
+//Given a positive integer, return its corresponding column title as appear in an Excel sheet.
+//
+//        For example:
+//
+//        1 -> A
+//        2 -> B
+//        3 -> C
+//        ...
+//        26 -> Z
+//        27 -> AA
+//        28 -> AB
 
 public class ExcelSheetColumnTitle {
 
@@ -9,15 +20,15 @@ public class ExcelSheetColumnTitle {
         while (n > 0) {
             n--;
             int digit = n % 26;
-            res.insert(0, (char) (digit + 'A'));
+            res.append((char) (digit + 'A'));
             n /= 26;
         }
-        return res.toString();
+        return res.reverse().toString();
     }
-	
+
     // unit test
     public static void main(String[] args) {
-    	String res = convertToTitle(27); 
-    	System.out.println(res); // "AA"
+        String res = convertToTitle(27);
+        System.out.println(res); // "AA"
     }
 }

@@ -1,8 +1,7 @@
 import java.util.Arrays;
 
 public class ValidSudoku {
-	
-	// iterative
+
     public boolean isValidSudoku(char[][] board) {
         if (board == null || board.length == 0 || board.length != 9 || board[0].length != 9) {
             return false;
@@ -16,7 +15,7 @@ public class ValidSudoku {
                 }
             }
         }
-        
+
         for (int i = 0; i < 9; i++) {
             Arrays.fill(visited, false);
             for (int j = 0; j < 9; j++) {
@@ -25,7 +24,7 @@ public class ValidSudoku {
                 }
             }
         }
-        
+
         for (int i = 0; i < 9; i += 3) {
             for (int j = 0; j < 9; j += 3) {
                 Arrays.fill(visited, false);
@@ -38,8 +37,7 @@ public class ValidSudoku {
         }
         return true;
     }
-    
-    // helper, validation
+
     private boolean isValid(boolean[] visited, char digit) {
         if (digit == '.') {
             return true;
@@ -51,9 +49,9 @@ public class ValidSudoku {
         visited[num - 1] = true;
         return true;
     }
-    
+
     // unit test
     public static void main(String[] args) {
-    	
+
     }
 }
