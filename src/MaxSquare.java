@@ -9,7 +9,7 @@
 //        1 0 0 1 0
 //        Return 4.
 
-public class MaximalSquare {
+public class MaxSquare {
 
     // dp, dynamic array
     public static int maximalSquare(int[][] matrix) {

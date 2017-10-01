@@ -14,7 +14,6 @@
 
 public class BTMaxPathSum {
 
-    // recursive, d & c
     public static int maxPathSum(TreeNode root) {
         if (root == null) {
             return 0;

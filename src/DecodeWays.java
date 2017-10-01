@@ -12,10 +12,9 @@
 //        The number of ways decoding "12" is 2.
 
 public class DecodeWays {
-	
-	// dp
+
     public static int numDecodings(String s) {
-    	if (s == null || s.length() == 0 || s.charAt(0) == '0') {
+        if (s == null || s.length() == 0 || s.charAt(0) == '0') {
             return 0;
         }
         int[] num = new int[s.length() + 1];
@@ -32,12 +31,12 @@ public class DecodeWays {
         }
         return num[s.length()];
     }
-    
+
     // unit test
     public static void main(String[] args) {
-    	String s1 = "102";
+        String s1 = "102";
         String s2 = "302";
-    	System.out.println(numDecodings(s1)); // 1
+        System.out.println(numDecodings(s1)); // 1
         System.out.println(numDecodings(s2)); // 0
     }
 }

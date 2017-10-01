@@ -11,7 +11,7 @@ import java.util.Stack;
 //        1 0 0 1 0
 //        Return 6.
 
-public class MaximalRectangle {
+public class MaxRectangle {
 
     public static int maximalRectangle(char[][] matrix) {
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {

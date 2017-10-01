@@ -13,7 +13,7 @@
 //        1 0 0 1 0
 //        Return 9
 
-public class MaximalSquareII {
+public class MaxSquareII {
 
     public static int maxSquare2(int[][] matrix) {
         // write your code here
