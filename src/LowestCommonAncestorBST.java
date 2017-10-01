@@ -16,6 +16,8 @@
 // LCA of nodes 2 and 4 is 2, since a node can be a descendant of itself according to the LCA
 // definition.
 
+import Utils.TreeNode;
+
 public class LowestCommonAncestorBST {
 
     // recursive

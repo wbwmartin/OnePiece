@@ -6,6 +6,8 @@
 //        A solution using O(n) space is pretty straight forward.
 //          Could you devise a constant space solution?
 
+import Utils.TreeNode;
+
 public class RecoverBST {
 
     private static TreeNode FIRST = null;

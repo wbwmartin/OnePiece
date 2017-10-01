@@ -1,3 +1,5 @@
+import Utils.TreeNode;
+
 import java.util.List;
 
 //Invert a binary tree.

@@ -1,3 +1,5 @@
+import Utils.TreeNode;
+
 import java.util.Stack;
 
 // Implement an iterator over a binary search tree (BST).

@@ -2,44 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fee32875-ffa2-4aca-9b2e-65217987ed38" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BTMaxPathSumII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Backpack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BackpackII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BackpackIII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BackpackIV.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BackpackV.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BackpackVI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CoinsInLine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CoinsInLineII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DistinctSubsequences.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LongestCommonSubsequence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LongestIncreasingContinuousSubsequence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LongestIncreasingSubsequence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MaxSubarrayIII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/NearestExit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PaintFence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PaintHouse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PaintHouseII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PerfectSquares.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RegularExpressionMatching.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/WildcardMatching.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnePiece/MaximalRectangle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnePiece/MaximalSquare.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnePiece/MaximalSquareII.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnePiece/RemoveParentheses.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MaximalRectangle.java" afterPath="$PROJECT_DIR$/src/MaxRectangle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MaximalSquare.java" afterPath="$PROJECT_DIR$/src/MaxSquare.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MaximalSquareII.java" afterPath="$PROJECT_DIR$/src/MaxSquareII.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BTMaxPathSum.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BTMaxPathSum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/DecodeWays.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/DecodeWays.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/InterleavingString.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/InterleavingString.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/UniqueBSTII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/UniqueBSTII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ZigzagConversion.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ZigzagConversion.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BTMaxPathSum.java" afterPath="$PROJECT_DIR$/src/BTMaxPathSum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DecodeWays.java" afterPath="$PROJECT_DIR$/src/DecodeWays.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InterleavingString.java" afterPath="$PROJECT_DIR$/src/InterleavingString.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UniqueBSTII.java" afterPath="$PROJECT_DIR$/src/UniqueBSTII.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,8 +24,8 @@
       <file leaf-file-name="MaxSubarrayIII.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MaxSubarrayIII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+            <state relative-caret-position="352">
+              <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
               <folding>
                 <element signature="e#0#1318#0" expanded="true" />
               </folding>
@@ -608,7 +571,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1720517" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23863636" sideWeight="0.49671593" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0028409092" sideWeight="0.49671593" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2197092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1142,8 +1105,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MaxSubarrayIII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        <state relative-caret-position="352">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
           <folding>
             <element signature="e#0#1318#0" expanded="true" />
           </folding>

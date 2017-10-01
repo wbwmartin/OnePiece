@@ -14,6 +14,8 @@
 //
 //        Return the sum = 12 + 13 = 25.
 
+import Utils.TreeNode;
+
 public class SumRootLeafNumbers {
 
     // recursive

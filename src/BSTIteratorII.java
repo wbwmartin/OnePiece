@@ -7,6 +7,8 @@
 //           uses O(h) memory, where h is the height of the tree.
 //   O(1) memory: morris inorder traversal
 
+import Utils.TreeNode;
+
 public class BSTIteratorII {
 
     TreeNode head;

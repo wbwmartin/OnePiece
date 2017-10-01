@@ -1,4 +1,5 @@
 import Utils.ListNode;
+import Utils.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -65,7 +66,7 @@ public class ConvertSortedListBST {
         b.next = c;
         c.next = d;
         d.next = e;
-        //TreeNode res = sortedListToBST(a);
+        //Utils.TreeNode res = sortedListToBST(a);
         TreeNode res = sortedListToBST(a);
         List<List<Integer>> list = BTLevelOrderTraversal.levelOrder(res); // 3 | 1 4 | 2 5
         for (List<Integer> i : list) {

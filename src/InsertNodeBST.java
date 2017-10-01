@@ -5,6 +5,8 @@
 //
 //        You can assume there is no duplicate values in this tree + node.
 
+import Utils.TreeNode;
+
 public class InsertNodeBST {
 
     public static TreeNode insertNode(TreeNode root, TreeNode node) {

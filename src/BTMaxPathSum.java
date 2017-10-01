@@ -12,6 +12,8 @@
 //        / \
 //        2   3
 
+import Utils.TreeNode;
+
 public class BTMaxPathSum {
 
     public static int maxPathSum(TreeNode root) {

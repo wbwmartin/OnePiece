@@ -3,6 +3,8 @@
 //        The maximum depth is the number of nodes along the longest path from the root node
 // down to the farthest leaf node.
 
+import Utils.TreeNode;
+
 public class MaxDepthBT {
 
     // recursive, d & c

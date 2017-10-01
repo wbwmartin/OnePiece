@@ -1,3 +1,5 @@
+import Utils.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -86,13 +88,13 @@ public class BSTTwoSum {
         b.right = e;
         System.out.println(twoSum(a, 6)); // 1 5, 2 4
 
-		/*TreeNode a = new TreeNode(4);
-        TreeNode b = new TreeNode(2);
-		TreeNode c = new TreeNode(6);
-		TreeNode d = new TreeNode(1);
-		TreeNode e = new TreeNode(3);
-		TreeNode f = new TreeNode(5);
-		TreeNode g = new TreeNode(7);
+		/*Utils.TreeNode a = new Utils.TreeNode(4);
+        Utils.TreeNode b = new Utils.TreeNode(2);
+		Utils.TreeNode c = new Utils.TreeNode(6);
+		Utils.TreeNode d = new Utils.TreeNode(1);
+		Utils.TreeNode e = new Utils.TreeNode(3);
+		Utils.TreeNode f = new Utils.TreeNode(5);
+		Utils.TreeNode g = new Utils.TreeNode(7);
 		a.left = b;
 		a.right = c;
 		b.left = d;

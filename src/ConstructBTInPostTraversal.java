@@ -1,3 +1,5 @@
+import Utils.TreeNode;
+
 import java.util.List;
 
 //Given inorder and postorder traversal of a tree, construct the binary tree.

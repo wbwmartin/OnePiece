@@ -15,6 +15,8 @@
 // is LCA of nodes 5 and 4 is 5, since a node can be a descendant of itself according to the
 // LCA definition.
 
+import Utils.TreeNode;
+
 public class LowestCommonAncestorBT {
 
     // recursive, d & c

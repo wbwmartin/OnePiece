@@ -22,6 +22,8 @@
 //        1   3   1
 //        Maximum amount of money the thief can rob = 4 + 5 = 9.
 
+import Utils.TreeNode;
+
 public class HouseRobberIII {
 
     public static int rob(TreeNode root) {

@@ -24,6 +24,8 @@
 //        /
 //        2
 
+import Utils.TreeNode;
+
 public class RemoveNodeBST {
 
     // recursive
