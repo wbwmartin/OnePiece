@@ -16,10 +16,7 @@ public class BSTIterator {
 
     public BSTIterator(TreeNode root) {
         stack = new Stack<>();
-        while (root != null) {
-            stack.push(root);
-            root = root.left;
-        }
+        addNodeToStack(root);
     }
 
     /**
@@ -33,15 +30,19 @@ public class BSTIterator {
      * @return the next smallest number
      */
     public int next() {
-        TreeNode temp = stack.pop();
-        int result = temp.val;
-        if (temp.right != null) {
-            temp = temp.right;
-            while (temp != null) {
-                stack.push(temp);
-                temp = temp.left;
-            }
+        TreeNode node = stack.pop();
+        int result = node.val;
+        if (node.right != null) {
+            node = node.right;
+            addNodeToStack(node);
         }
         return result;
+    }
+
+    private void addNodeToStack(TreeNode node) {
+        while (node != null) {
+            stack.push(node);
+            node = node.left;
+        }
     }
 }

@@ -1,9 +1,5 @@
 import Utils.ListNode;
 
-import java.util.Comparator;
-import java.util.PriorityQueue;
-import java.util.Queue;
-
 // Merge two sorted linked lists and return it as a new list.
 // The new list should be made by splicing together the nodes of the first two lists.
 

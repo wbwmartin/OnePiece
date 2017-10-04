@@ -1,3 +1,5 @@
+import Utils.Interval;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -23,21 +25,6 @@ import java.util.List;
 //        Return 3
 
 public class NumAirplanesSky {
-
-    public static class Interval {
-        int start;
-        int end;
-
-        Interval() {
-            start = 0;
-            end = 0;
-        }
-
-        Interval(int s, int e) {
-            start = s;
-            end = e;
-        }
-    }
 
     public static class Point {
         private int value;

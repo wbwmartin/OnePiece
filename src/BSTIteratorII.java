@@ -15,7 +15,7 @@ public class BSTIteratorII {
 
     public BSTIteratorII(TreeNode root) {
         head = new TreeNode(0);
-        TreeNode prev = null;
+        TreeNode prev;
         TreeNode tail = new TreeNode(0);
         tail.right = head;
         while (root != null) {

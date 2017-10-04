@@ -20,7 +20,6 @@ import java.util.*;
 public class DataStreamMedian {
 
     public static int[] medianII(int[] nums) {
-        // write your code here
         if (nums == null) {
             return null;
         }

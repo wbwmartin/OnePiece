@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.Comparator;
 
 //Given a list of non negative integers, arrange them such that they form the largest number.
 //

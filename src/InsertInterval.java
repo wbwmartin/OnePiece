@@ -1,3 +1,5 @@
+import Utils.Interval;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,16 +16,6 @@ import java.util.List;
 //		This is because the new interval [4,9] overlaps with [3,5],[6,7],[8,10].
 
 public class InsertInterval {
-
-    public static class Interval {
-        int start;
-        int end;
-
-        Interval(int start, int end) {
-            this.start = start;
-            this.end = end;
-        }
-    }
 
     public static List<Interval> insert(List<Interval> intervals, Interval newInterval) {
         List<Interval> res = new ArrayList<>();

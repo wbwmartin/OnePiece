@@ -21,7 +21,7 @@ import java.util.Queue;
 
 public class MergeKSortedLists {
 
-    // merge K lists, divide & conquer, O(nklogk) time
+    // binary search, O(nklogk) time
     public static ListNode mergeKLists(ListNode[] lists) {
         if (lists == null || lists.length == 0) {
             return null;
