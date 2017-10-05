@@ -2,77 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fee32875-ffa2-4aca-9b2e-65217987ed38" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BTPaths.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BuildingOutlines.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DicesSum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/KSum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SuperUglyNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UglyNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UglyNumberII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utils/Interval.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/WiggleSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/WiggleSortII.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnePiece/InsertInterval$Interval.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnePiece/MergeIntervals$Interval.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnePiece/NumAirplanesSky$Interval.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnePiece/TreeNode.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BSTIterator.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BSTIterator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BSTIteratorII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BSTIteratorII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BSTTwoSum.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BSTTwoSum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BTInorderTraversal.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BTInorderTraversal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BTLevelOrderTraversal.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BTLevelOrderTraversal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BTLevelOrderTraversalII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BTLevelOrderTraversalII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BTMaxPathSum.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BTMaxPathSum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BTMaxPathSumII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BTMaxPathSumII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BTPostorderTraversal.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BTPostorderTraversal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BTPreorderTraversal.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BTPreorderTraversal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BTRightSideView.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BTRightSideView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BTVerticalOrderTraversal.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BTVerticalOrderTraversal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BTZigzagTraversal.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BTZigzagTraversal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BalancedBT.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BalancedBT.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ConstructBTInPostTraversal.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ConstructBTInPostTraversal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ConstructBTPreInTraversal.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ConstructBTPreInTraversal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ConvertSortedArrayBST.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ConvertSortedArrayBST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ConvertSortedListBST.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ConvertSortedListBST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/CountCompleteTreeNodes.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/CountCompleteTreeNodes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/DataStreamMedian.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/DataStreamMedian.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/FlattenBTLinkedList.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/FlattenBTLinkedList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/HouseRobberIII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/HouseRobberIII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/InsertInterval.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/InsertInterval.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/InsertNodeBST.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/InsertNodeBST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/InvertBT.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/InvertBT.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/KthSmallestElementBST.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/KthSmallestElementBST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/LargestNumber.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/LargestNumber.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/LowestCommonAncestorBST.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/LowestCommonAncestorBST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/LowestCommonAncestorBT.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/LowestCommonAncestorBT.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MaxDepthBT.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MaxDepthBT.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MaxTree.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MaxTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MergeIntervals.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MergeIntervals.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MergeTwoSortedLists.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MergeTwoSortedLists.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MinDepthBT.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MinDepthBT.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/NumAirplanesSky$Point.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/NumAirplanesSky$Point.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/NumAirplanesSky.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/NumAirplanesSky.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/PathSum.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/PathSum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/PathSumII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/PathSumII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/PathSumIII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/PathSumIII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/RecoverBST.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/RecoverBST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/RemoveNodeBST.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/RemoveNodeBST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/SameTree.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/SameTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/SumRootLeafNumbers.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/SumRootLeafNumbers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/SymmetricTree.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/SymmetricTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/UniqueBST.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/UniqueBST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ValidateBST.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ValidateBST.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BigIntegerAddition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CreateMaxNumber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FlattenNestedListIterator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GraphValidTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GuessNumberGame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InsertDeleteGetRandom.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MaxAverageSubarray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RemoveDuplicateNumbers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/SuperUglyNumber.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/SuperUglyNumber.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BSTIterator.java" afterPath="$PROJECT_DIR$/src/BSTIterator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BSTIteratorII.java" afterPath="$PROJECT_DIR$/src/BSTIteratorII.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DataStreamMedian.java" afterPath="$PROJECT_DIR$/src/DataStreamMedian.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InsertInterval.java" afterPath="$PROJECT_DIR$/src/InsertInterval.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LargestNumber.java" afterPath="$PROJECT_DIR$/src/LargestNumber.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MergeIntervals.java" afterPath="$PROJECT_DIR$/src/MergeIntervals.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MergeKSortedLists.java" afterPath="$PROJECT_DIR$/src/MergeKSortedLists.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MergeTwoSortedLists.java" afterPath="$PROJECT_DIR$/src/MergeTwoSortedLists.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NumAirplanesSky.java" afterPath="$PROJECT_DIR$/src/NumAirplanesSky.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Search2DMatrixII.java" afterPath="$PROJECT_DIR$/src/Search2DMatrixII.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,23 +30,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BuildingOutlines.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BuildingOutlines.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="47" column="16" lean-forward="true" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-              <folding>
-                <element signature="e#3760#3761#0" expanded="true" />
-                <element signature="e#3794#3795#0" expanded="true" />
-                <element signature="e#3826#3827#0" expanded="true" />
-                <element signature="e#3861#3862#0" expanded="true" />
-                <element signature="e#3892#3893#0" expanded="true" />
-                <element signature="e#3926#3927#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BTPaths.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BTPaths.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -141,37 +63,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WiggleSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WiggleSort.java">
+      <file leaf-file-name="CreateMaxNumber.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CreateMaxNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WiggleSortII.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WiggleSortII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+            <state relative-caret-position="840">
+              <caret line="56" column="26" lean-forward="true" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
               <folding>
-                <element signature="e#0#2539#0" expanded="true" />
-                <element signature="e#1368#1369#0" expanded="true" />
-                <element signature="e#1416#1417#0" expanded="true" />
+                <element signature="e#0#2548#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SuperUglyNumber.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SuperUglyNumber.java">
+      <file leaf-file-name="RemoveDuplicateNumbers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RemoveDuplicateNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="375">
+              <caret line="36" column="46" lean-forward="true" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxAverageSubarray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MaxAverageSubarray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
               <folding>
-                <element signature="e#0#1721#0" expanded="true" />
+                <element signature="e#0#1746#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -232,6 +152,7 @@
       <find>comparing</find>
       <find>Comparator</find>
       <find>pivot</find>
+      <find>Point</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -245,14 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ZigzagConversion.java" />
-        <option value="$PROJECT_DIR$/src/NearestExit.java" />
-        <option value="$PROJECT_DIR$/src/RegularExpressionMatching.java" />
-        <option value="$PROJECT_DIR$/src/UniqueBSTII.java" />
-        <option value="$PROJECT_DIR$/src/DecodeWays.java" />
-        <option value="$PROJECT_DIR$/src/BTMaxPathSum.java" />
-        <option value="$PROJECT_DIR$/src/BTMaxPathSumII.java" />
-        <option value="$PROJECT_DIR$/src/MaxRectangle.java" />
         <option value="$PROJECT_DIR$/src/WildcardMatching.java" />
         <option value="$PROJECT_DIR$/src/DistinctSubsequences.java" />
         <option value="$PROJECT_DIR$/src/InterleavingString.java" />
@@ -296,6 +209,14 @@
         <option value="$PROJECT_DIR$/src/UglyNumber.java" />
         <option value="$PROJECT_DIR$/src/UglyNumberII.java" />
         <option value="$PROJECT_DIR$/src/SuperUglyNumber.java" />
+        <option value="$PROJECT_DIR$/src/FlattenNestedListIterator.java" />
+        <option value="$PROJECT_DIR$/src/GraphValidTree.java" />
+        <option value="$PROJECT_DIR$/src/CreateMaxNumber.java" />
+        <option value="$PROJECT_DIR$/src/RemoveDuplicateNumbers.java" />
+        <option value="$PROJECT_DIR$/src/MaxAverageSubarray.java" />
+        <option value="$PROJECT_DIR$/src/GuessNumberGame.java" />
+        <option value="$PROJECT_DIR$/src/InsertDeleteGetRandom.java" />
+        <option value="$PROJECT_DIR$/src/BigIntegerAddition.java" />
       </list>
     </option>
   </component>
@@ -381,10 +302,10 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
   </component>
-  <component name="RunManager" selected="Application.SuperUglyNumber">
-    <configuration default="false" name="BTPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.BigIntegerAddition">
+    <configuration default="false" name="CreateMaxNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="BTPaths" />
+      <option name="MAIN_CLASS_NAME" value="CreateMaxNumber" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -397,9 +318,9 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="WiggleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="RemoveDuplicateNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="WiggleSort" />
+      <option name="MAIN_CLASS_NAME" value="RemoveDuplicateNumbers" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -412,9 +333,9 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="UglyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MaxAverageSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="UglyNumber" />
+      <option name="MAIN_CLASS_NAME" value="MaxAverageSubarray" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -427,9 +348,9 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="UglyNumberII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="GuessNumberGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="UglyNumberII" />
+      <option name="MAIN_CLASS_NAME" value="GuessNumberGame" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -442,9 +363,9 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="SuperUglyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="BigIntegerAddition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="SuperUglyNumber" />
+      <option name="MAIN_CLASS_NAME" value="BigIntegerAddition" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -662,19 +583,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.BTPaths" />
-      <item index="1" class="java.lang.String" itemvalue="Application.WiggleSort" />
-      <item index="2" class="java.lang.String" itemvalue="Application.UglyNumber" />
-      <item index="3" class="java.lang.String" itemvalue="Application.UglyNumberII" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SuperUglyNumber" />
+      <item index="0" class="java.lang.String" itemvalue="Application.CreateMaxNumber" />
+      <item index="1" class="java.lang.String" itemvalue="Application.RemoveDuplicateNumbers" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MaxAverageSubarray" />
+      <item index="3" class="java.lang.String" itemvalue="Application.GuessNumberGame" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BigIntegerAddition" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SuperUglyNumber" />
-        <item index="1" class="java.lang.String" itemvalue="Application.UglyNumberII" />
-        <item index="2" class="java.lang.String" itemvalue="Application.UglyNumber" />
-        <item index="3" class="java.lang.String" itemvalue="Application.WiggleSort" />
-        <item index="4" class="java.lang.String" itemvalue="Application.BTPaths" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BigIntegerAddition" />
+        <item index="1" class="java.lang.String" itemvalue="Application.GuessNumberGame" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MaxAverageSubarray" />
+        <item index="3" class="java.lang.String" itemvalue="Application.RemoveDuplicateNumbers" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CreateMaxNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -719,7 +640,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15266559" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13468014" sideWeight="0.49671593" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32386363" sideWeight="0.49671593" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24151857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -781,102 +702,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BackpackVI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PalindromePartitioningII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="13" column="49" lean-forward="false" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#1711#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WildcardMatching.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="e#860#861#0" expanded="false" />
-            <element signature="e#901#902#0" expanded="false" />
-            <element signature="e#947#948#0" expanded="false" />
-            <element signature="e#1000#1001#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MaxRectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="36" column="50" lean-forward="false" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PaintHouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#1593#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BestTimeStockIV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#1487#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PaintFence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding>
-            <element signature="e#1198#1199#0" expanded="false" />
-            <element signature="e#1250#1251#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PaintHouseII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LongestIncreasingSubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LongestCommonSubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#1336#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CoinsInLineII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
@@ -1187,18 +1012,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WiggleSortII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#2539#0" expanded="true" />
-            <element signature="e#1368#1369#0" expanded="true" />
-            <element signature="e#1416#1417#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/UglyNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1232,10 +1045,114 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SuperUglyNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FlattenNestedListIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#0#1721#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GraphValidTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#2046#0" expanded="true" />
+            <element signature="e#1792#1793#0" expanded="true" />
+            <element signature="e#1841#1842#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CopyListRandomPointer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NumberIslandsII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WiggleSortII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#2539#0" expanded="true" />
+            <element signature="e#1368#1369#0" expanded="true" />
+            <element signature="e#1416#1417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CreateMaxNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="26" lean-forward="true" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#2548#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RemoveDuplicateNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="36" column="46" lean-forward="true" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InsertDeleteGetRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GuessNumberGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#1333#0" expanded="true" />
+            <element signature="e#1273#1274#0" expanded="true" />
+            <element signature="e#1329#1330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BigIntegerAddition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaxAverageSubarray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#1746#0" expanded="true" />
           </folding>
         </state>
       </provider>
