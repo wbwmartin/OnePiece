@@ -2,46 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fee32875-ffa2-4aca-9b2e-65217987ed38" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AddOperators.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BTLongestPathSameValue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BombEnemy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BuildPostOffice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BuildPostOfficeII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CheckWordAbbreviation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Flatten2DVector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LoadBalancer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LongestSubstringMostKDistanceCharacters.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MinStackII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MirrorNumbers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MissingInterval.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RangeSumQuery2DImmutable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RangeSumQueryImmutable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ReadCharactersFromFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ReadCharactersFromFileII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SlidingWindowAverageDataStream.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SmallestRectangleEnclosingBlackPixels.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StringSerialization.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SystemLongestFilePath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TwoSumBST.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/WordAbbreviationSet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/WordSquares.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/WordsAbbreviation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ZigzagIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ZigzagIteratorII.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnePiece/LongestSubstringNoRepeatingChar.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LongestSubstringNoRepeatingChar.java" afterPath="$PROJECT_DIR$/src/LongestSubstringNoRepeatingCharacters.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/GameOfLife.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/GameOfLife.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/KEditDistance.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/KEditDistance.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/NumberIslandsII$Point.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/NumberIslandsII$Point.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/NumberIslandsII$UnionFind.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/NumberIslandsII$UnionFind.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/NumberIslandsII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/NumberIslandsII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/WildcardMatching.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/WildcardMatching.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnePiece/tripAdvisor/ArrayEvenIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnePiece/tripAdvisor/IntersectionNArray$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnePiece/tripAdvisor/IntersectionNArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnePiece/tripAdvisor/IntersectionTwoArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnePiece/tripAdvisor/LongestPalindromeSubstring.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnePiece/tripAdvisor/MergeSortedList$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnePiece/tripAdvisor/MergeSortedList$ListNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnePiece/tripAdvisor/MergeSortedList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnePiece/tripAdvisor/RemoveFibonacciIndexList$ListNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnePiece/tripAdvisor/RemoveFibonacciIndexList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnePiece/tripAdvisor/TestCalendar.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tripAdvisor/ArrayEvenIterator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tripAdvisor/IntersectionNArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tripAdvisor/IntersectionTwoArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tripAdvisor/LongestPalindromeSubstring.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tripAdvisor/MergeSortedList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tripAdvisor/TestCalendar.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tripAdvisor/RemoveFibonacciIndexList.java" afterPath="$PROJECT_DIR$/src/RemoveFibonacciIndexList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BTLongestPathSameValue$Node.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BTLongestPathSameValue$Node.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BTLongestPathSameValue.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BTLongestPathSameValue.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GameOfLife.java" afterPath="$PROJECT_DIR$/src/GameOfLife.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/KEditDistance.java" afterPath="$PROJECT_DIR$/src/KEditDistance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NumberIslandsII.java" afterPath="$PROJECT_DIR$/src/NumberIslandsII.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TopKFrequentElements.java" afterPath="$PROJECT_DIR$/src/TopKFrequentElements.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WildcardMatching.java" afterPath="$PROJECT_DIR$/src/WildcardMatching.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,15 +41,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="KEditDistance.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/KEditDistance.java">
+      <file leaf-file-name="SystemLongestFilePath.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SystemLongestFilePath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="70" column="13" lean-forward="false" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+            <state relative-caret-position="122">
+              <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
               <folding>
-                <element signature="e#1926#1927#0" expanded="true" />
-                <element signature="e#1971#1972#0" expanded="true" />
+                <element signature="e#0#2703#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GasStation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GasStation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KLargestElementArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/KLargestElementArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-208">
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoveFibonacciIndexList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/RemoveFibonacciIndexList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,16 +95,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinimumSpanningTree.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MinimumSpanningTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-540">
-              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -106,7 +106,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>find2</find>
       <find>FindWeakConnectedComponentDG</find>
       <find>A</find>
       <find>left</find>
@@ -135,6 +134,8 @@
       <find>random</find>
       <find>trie</find>
       <find>Integer</find>
+      <find>lengthLongestPath</find>
+      <find>kthlargest</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -148,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LargestNumber.java" />
         <option value="$PROJECT_DIR$/src/MergeTwoSortedLists.java" />
         <option value="$PROJECT_DIR$/src/BuildingOutlines.java" />
         <option value="$PROJECT_DIR$/src/BTPaths.java" />
@@ -199,6 +199,7 @@
         <option value="$PROJECT_DIR$/src/NumberIslandsII.java" />
         <option value="$PROJECT_DIR$/src/BTLongestPathSameValue.java" />
         <option value="$PROJECT_DIR$/src/TopKFrequentElements.java" />
+        <option value="$PROJECT_DIR$/src/RemoveFibonacciIndexList.java" />
       </list>
     </option>
   </component>
@@ -285,22 +286,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
   </component>
-  <component name="RunManager" selected="Application.BTLongestPathSameValue">
-    <configuration default="false" name="LongestSubstringMostKDistanceCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="LongestSubstringMostKDistanceCharacters" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="OnePiece" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.RemoveFibonacciIndexList">
     <configuration default="false" name="StringSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="StringSerialization" />
@@ -349,6 +340,21 @@
     <configuration default="false" name="BTLongestPathSameValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="BTLongestPathSameValue" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="OnePiece" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="RemoveFibonacciIndexList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="RemoveFibonacciIndexList" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -566,19 +572,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.LongestSubstringMostKDistanceCharacters" />
-      <item index="1" class="java.lang.String" itemvalue="Application.StringSerialization" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MinStackII" />
-      <item index="3" class="java.lang.String" itemvalue="Application.NumberIslandsII" />
-      <item index="4" class="java.lang.String" itemvalue="Application.BTLongestPathSameValue" />
+      <item index="0" class="java.lang.String" itemvalue="Application.StringSerialization" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MinStackII" />
+      <item index="2" class="java.lang.String" itemvalue="Application.NumberIslandsII" />
+      <item index="3" class="java.lang.String" itemvalue="Application.BTLongestPathSameValue" />
+      <item index="4" class="java.lang.String" itemvalue="Application.RemoveFibonacciIndexList" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.BTLongestPathSameValue" />
-        <item index="1" class="java.lang.String" itemvalue="Application.NumberIslandsII" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MinStackII" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StringSerialization" />
-        <item index="4" class="java.lang.String" itemvalue="Application.LongestSubstringMostKDistanceCharacters" />
+        <item index="0" class="java.lang.String" itemvalue="Application.RemoveFibonacciIndexList" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BTLongestPathSameValue" />
+        <item index="2" class="java.lang.String" itemvalue="Application.NumberIslandsII" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MinStackII" />
+        <item index="4" class="java.lang.String" itemvalue="Application.StringSerialization" />
       </list>
     </recent_temporary>
   </component>
@@ -620,13 +626,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9882155" sideWeight="0.5032841" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922825" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12197092" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12197092" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32323232" sideWeight="0.49671593" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24232633" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42424244" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958949" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958949" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -638,7 +645,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42424244" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -685,54 +691,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MaxAverageSubarray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#1746#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZigzagIteratorII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-218">
-          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataStreamMedian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AddOperators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SystemLongestFilePath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#2703#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BombEnemy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1113,27 +1071,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/KEditDistance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="70" column="13" lean-forward="false" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
-          <folding>
-            <element signature="e#1926#1927#0" expanded="true" />
-            <element signature="e#1971#1972#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReadCharactersFromFileII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#798#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BTLongestPathSameValue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1035">
@@ -1154,8 +1091,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MinimumSpanningTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        <state relative-caret-position="210">
+          <caret line="71" column="13" lean-forward="true" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReadCharactersFromFileII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#798#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KEditDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SystemLongestFilePath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#2703#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GasStation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KLargestElementArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tripAdvisor/TestCalendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RemoveFibonacciIndexList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
           <folding />
         </state>
       </provider>
