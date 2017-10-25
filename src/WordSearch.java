@@ -17,7 +17,6 @@
 public class WordSearch {
 
     public static boolean exist(char[][] board, String word) {
-        // write your code here
         if (board == null || board.length == 0 || board[0].length == 0 || word == null || word.length() == 0) {
             return false;
         }

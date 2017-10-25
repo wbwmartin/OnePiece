@@ -14,7 +14,6 @@
 public class GraphValidTree {
 
     public static boolean validTree(int n, int[][] edges) {
-        // Write your code here
         if (n < 1 || edges == null || edges.length != n - 1) {
             return false;
         }
@@ -66,7 +65,9 @@ public class GraphValidTree {
 
     public static void main(String[] args) {
         int n = 5;
-        int[][] edges = {{0, 1}, {1, 2}, {2, 3}, {1, 3}, {1, 4}};
-        System.out.println(validTree(n, edges)); // false
+        int[][] edges1 = {{0, 1}, {0, 2}, {0, 3}, {1, 4}};
+        int[][] edges2 = {{0, 1}, {1, 2}, {2, 3}, {1, 3}, {1, 4}};
+        System.out.println(validTree(n, edges1)); // true
+        System.out.println(validTree(n, edges2)); // false
     }
 }

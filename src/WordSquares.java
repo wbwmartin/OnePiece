@@ -39,11 +39,7 @@ public class WordSquares {
         Trie trie = new Trie(words);
         int len = words[0].length();
         List<String> items = new ArrayList<>();
-        for (String word : words) {
-            items.add(word);
-            findSquare(res, items, trie, len);
-            items.remove(items.size() - 1);
-        }
+        findSquare(res, items, trie, len);
         return res;
     }
 

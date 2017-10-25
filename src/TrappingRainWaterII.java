@@ -1,3 +1,4 @@
+import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
@@ -23,7 +24,7 @@ public class TrappingRainWaterII {
         int m = heights.length;
         int n = heights[0].length;
         boolean[][] visited = new boolean[m][n];
-        Queue<Cell> pq = new PriorityQueue<>();
+        Queue<Cell> pq = new PriorityQueue<>(1, Comparator.comparing(Cell::getVal));
         int[] dx = {0, 1, 0, -1};
         int[] dy = {1, 0, -1, 0};
         for (int i = 0; i < m; i++) {
@@ -55,7 +56,7 @@ public class TrappingRainWaterII {
         return res;
     }
 
-    public static class Cell implements Comparable<Cell> {
+    public static class Cell {
         public int x, y, val;
 
         public Cell(int x, int y, int val) {
@@ -64,9 +65,8 @@ public class TrappingRainWaterII {
             this.val = val;
         }
 
-        @Override
-        public int compareTo(Cell other) {
-            return this.val - other.val;
+        public int getVal() {
+            return this.val;
         }
     }
 

@@ -19,7 +19,7 @@ import java.util.*;
 //		->D  E <- F
 //		Return {A,B,D}, {C,E,F}. Since there are two connected component which are {A,B,D} and {C,E,F}
 
-public class FindWeakConnectedComponentDG {
+public class FindWeakConnectedComponentDirectedGraph {
 
     public static List<List<Integer>> connectedSet2(ArrayList<DirectedGraphNode> nodes) {
         // Write your code here
@@ -43,7 +43,7 @@ public class FindWeakConnectedComponentDG {
         for (Integer i : set) {
             int father = uf.find(i);
             if (!map.containsKey(father)) {
-                map.put(father, new ArrayList<Integer>());
+                map.put(father, new ArrayList<>());
             }
             map.get(father).add(i);
         }
@@ -52,27 +52,6 @@ public class FindWeakConnectedComponentDG {
             res.add(list);
         }
         return res;
-    }
-
-    public static void main(String[] args) {
-        DirectedGraphNode a = new DirectedGraphNode(1);
-        DirectedGraphNode b = new DirectedGraphNode(2);
-        DirectedGraphNode c = new DirectedGraphNode(3);
-        DirectedGraphNode d = new DirectedGraphNode(4);
-        DirectedGraphNode e = new DirectedGraphNode(5);
-        DirectedGraphNode f = new DirectedGraphNode(6);
-
-        a.neighbors.add(b);
-        a.neighbors.add(d);
-        b.neighbors.add(d);
-        c.neighbors.add(e);
-        f.neighbors.add(e);
-
-        ArrayList<DirectedGraphNode> nodes = new ArrayList<>();
-        nodes.add(a);
-        nodes.add(c);
-        nodes.add(f);
-        System.out.println(connectedSet2(nodes)); // 1 2 4 || 3 5 6
     }
 
     private static class DirectedGraphNode {
@@ -94,26 +73,19 @@ public class FindWeakConnectedComponentDG {
             }
         }
 
-		public int find(int x) {
-            while (x != map.get(x)) {
-				x = map.get(x);
-			}
-			return x;
-		}
-
-        /*public int find(int x) {
+        public int find(int x) {
             int father = map.get(x);
             while (father != map.get(father)) {
                 father = map.get(father);
             }
-            int temp = -1;
+            int temp;
             while (x != map.get(x)) {
                 temp = map.get(x);
                 map.put(x, father);
                 x = temp;
             }
             return father;
-        }*/
+        }
 
         public void union(int x, int y) {
             int fx = find(x);
@@ -122,5 +94,26 @@ public class FindWeakConnectedComponentDG {
                 map.put(fx, fy);
             }
         }
+    }
+
+    public static void main(String[] args) {
+        DirectedGraphNode a = new DirectedGraphNode(1);
+        DirectedGraphNode b = new DirectedGraphNode(2);
+        DirectedGraphNode c = new DirectedGraphNode(3);
+        DirectedGraphNode d = new DirectedGraphNode(4);
+        DirectedGraphNode e = new DirectedGraphNode(5);
+        DirectedGraphNode f = new DirectedGraphNode(6);
+
+        a.neighbors.add(b);
+        a.neighbors.add(d);
+        b.neighbors.add(d);
+        c.neighbors.add(e);
+        f.neighbors.add(e);
+
+        ArrayList<DirectedGraphNode> nodes = new ArrayList<>();
+        nodes.add(a);
+        nodes.add(c);
+        nodes.add(f);
+        System.out.println(connectedSet2(nodes)); // 1 2 4 || 3 5 6
     }
 }

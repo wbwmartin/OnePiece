@@ -1,3 +1,23 @@
+//Implement a trie with insert, search, and startsWith methods.
+//
+//        Notice
+//
+//        You may assume that all inputs are consist of lowercase letters a-z.
+//
+//        Have you met this question in a real interview? Yes
+//        Example
+//        insert("lintcode")
+//        search("code")
+//        >>> false
+//        startsWith("lint")
+//        >>> true
+//        startsWith("linterror")
+//        >>> false
+//        insert("linterror")
+//        search("lintcode)
+//        >>> true
+//        startsWith("linterror")
+//        >>> true
 
 public class Trie {
 

@@ -18,7 +18,7 @@ import java.util.Queue;
 //		X X X X
 //		X O X X
 
-public class SurroundedRegion {
+public class SurroundedRegions {
 
     // recursive
     public static void solve(char[][] board) {

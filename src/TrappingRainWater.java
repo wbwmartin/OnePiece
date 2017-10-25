@@ -9,7 +9,6 @@
 public class TrappingRainWater {
 
     public static int trapRainWater(int[] heights) {
-        // write your code here
         if (heights == null || heights.length == 0) {
             return 0;
         }
