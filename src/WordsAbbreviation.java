@@ -11,7 +11,7 @@ import java.util.*;
 //        The length of each word is greater than 1.
 //        The words consist of lowercase English letters only.
 //        The return answers should be in the same order as the original array.
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        Given dict = ["like", "god", "internal", "me", "internet", "interval", "intension", "face", "intrusion"]
 //        return ["l2e","god","internal","me","i6t","interval","inte4n","f2e","intr4n"]

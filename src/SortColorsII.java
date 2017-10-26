@@ -7,7 +7,7 @@
 //
 //        k <= n
 //
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        Given colors=[3, 2, 2, 1, 4], k=4, your code should sort colors in-place to [1, 2, 2, 3, 4].
 //

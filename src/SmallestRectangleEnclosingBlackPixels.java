@@ -18,6 +18,7 @@
 public class SmallestRectangleEnclosingBlackPixels {
 
     // http://www.cnblogs.com/yrbbest/p/5050022.html
+    // O(mlogn + nlogm)
     public static int minArea(char[][] image, int x, int y) {
         // write your code here
         if (image == null || image.length == 0 || image[0].length == 0) {

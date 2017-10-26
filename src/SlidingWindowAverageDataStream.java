@@ -3,7 +3,7 @@ import java.util.Queue;
 
 //Given a stream of integers and a window size, calculate the moving average of all integers in the sliding window.
 //
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        MovingAverage m = new MovingAverage(3);
 //        m.next(1) = 1 // return 1.00000

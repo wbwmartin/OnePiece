@@ -7,7 +7,7 @@ import java.util.List;
 //
 //        Bonus point if you are able to do this using only O(n) extra space, where n is the total number of rows in the triangle.
 //
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        Given the following triangle:
 //

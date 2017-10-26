@@ -6,7 +6,7 @@
 //        Both num1 and num2 contains only digits 0-9.
 //        Both num1 and num2 does not contain any leading zero.
 //        You must not use any built-in BigInteger library or convert the inputs to integer directly.
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        Given num1 = "123", num2 = "45"
 //        return "168"

@@ -13,7 +13,7 @@ import java.util.List;
 //          If two 1 is adjacent, we consider them in the same island.
 //          We only consider up/down/left/right adjacent.
 //
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        Given n = 3, m = 3, array of pair A = [(0,0),(0,1),(2,2),(2,1)].
 //

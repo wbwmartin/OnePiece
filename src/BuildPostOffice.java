@@ -10,7 +10,7 @@ import java.util.List;
 //
 //        You can pass through house and empty.
 //        You only build post office on an empty.
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        Given a grid:
 //

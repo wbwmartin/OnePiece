@@ -13,7 +13,7 @@
 //        1 is a super ugly number for any given primes.
 //        The given numbers in primes are in ascending order.
 //        0 < k ≤ 100, 0 < n ≤ 10^6, 0 < primes[i] < 1000
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        Given n = 6, primes = [2, 7, 13, 19] return 13
 

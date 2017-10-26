@@ -4,7 +4,7 @@
 //
 //        You may assume that all inputs are consist of lowercase letters a-z.
 //
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        insert("lintcode")
 //        search("code")

@@ -2,7 +2,7 @@
 //
 //        Find k numbers where sum is target. Calculate how many solutions there are?
 //
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        Given [1,2,3,4], k = 2, target = 5.
 //

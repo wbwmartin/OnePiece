@@ -2,7 +2,6 @@
 //
 //        The path may end at any node in the tree and contain at least one node in it.
 //
-//        Have you met this question in a real interview? Yes
 //        Example
 //        Given the below binary tree:
 //

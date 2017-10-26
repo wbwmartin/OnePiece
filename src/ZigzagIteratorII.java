@@ -6,7 +6,7 @@ import java.util.List;
 // The "Zigzag" order is not clearly defined and is ambiguous for k > 2 cases.
 // If "Zigzag" does not look right to you, replace "Zigzag" with "Cyclic".
 //
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        Given k = 3 1d vectors:
 //

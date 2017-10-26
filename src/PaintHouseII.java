@@ -11,7 +11,7 @@
 //
 //        All costs are positive integers.
 //
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        Given n = 3, k = 3, costs = [[14,2,11],[11,14,5],[14,3,10]] return 10
 //

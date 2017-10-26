@@ -8,7 +8,7 @@
 //
 //        O(n) time and O(1) extra space.
 //
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        For [5, 4, 2, 1, 3], the LICS is [5, 4, 2, 1], return 4.
 //

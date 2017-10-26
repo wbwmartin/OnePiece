@@ -3,7 +3,6 @@ import java.util.List;
 
 //Given a string that contains only digits 0-9 and a target value, return all possibilities to add binary operators (not unary) +, -, or * between the digits so they evaluate to the target value.
 //
-//        Have you met this question in a real interview? Yes
 //        Example
 //        "123", 6 -> ["1+2+3", "1*2*3"]
 //        "232", 8 -> ["2*3+2", "2+3*2"]

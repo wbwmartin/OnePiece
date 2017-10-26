@@ -32,7 +32,7 @@
 //        The name of a directory or sub-directory will not contain a ..
 //        Time complexity required: O(n) where n is the size of the input string.
 //        Notice that a/aa/aaa/file1.txt is not the longest file path, if there is another path aaaaaaaaaaaaaaaaaaaaa/sth.png.
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        Give input = "dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext" return
 

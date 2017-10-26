@@ -7,7 +7,7 @@ import java.util.*;
 //
 //        If two nodes are in the same row and column, the order should be from left to right.
 //
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        Given binary tree {3,9,20,#,#,15,7}
 //

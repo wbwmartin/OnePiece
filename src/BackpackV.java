@@ -3,7 +3,7 @@
 //
 //        Each item may only be used once
 //
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        Given candidate items [1,2,3,3,7] and target 7,
 //

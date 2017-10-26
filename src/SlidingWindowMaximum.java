@@ -4,7 +4,7 @@ import java.util.Deque;
 
 //Given an array of n integer with duplicate number, and a moving window(size k), move the window at each iteration from the start of the array, find the maximum number inside the window at each moving.
 //
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        For array [1, 2, 7, 7, 8], moving window size k = 3. return [7, 7, 8]
 //
@@ -34,8 +34,7 @@ public class SlidingWindowMaximum {
         for (int i = 0; i < k - 1; i++) {
             inQueue(deque, nums[i]);
         }
-
-        for(int i = k - 1; i < nums.length; i++) {
+        for (int i = k - 1; i < nums.length; i++) {
             inQueue(deque, nums[i]);
             ans.add(deque.peekFirst());
             outQueue(deque, nums[i - k + 1]);
@@ -54,5 +53,10 @@ public class SlidingWindowMaximum {
         if (deque.peekFirst() == num) {
             deque.pollFirst();
         }
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {1, 2, 7, 7, 8};
+        System.out.println(maxSlidingWindow(nums, 3)); // 7 7 8
     }
 }

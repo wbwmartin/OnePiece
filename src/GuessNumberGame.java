@@ -6,7 +6,7 @@
 //
 //        You call a pre-defined API guess(int num) which returns 3 possible results (-1, 1, or 0):
 //
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        n = 10, I pick 4 (but you don't know)
 //

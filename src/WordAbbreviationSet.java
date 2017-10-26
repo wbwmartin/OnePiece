@@ -18,7 +18,7 @@ import java.util.Map;
 //        Assume you have a dictionary and given a word, find whether its abbreviation is unique in the dictionary.
 //          A word's abbreviation is unique if no other word from the dictionary has the same abbreviation.
 //
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        Given dictionary = [ "deer", "door", "cake", "card" ]
 //        isUnique("dear") // return false

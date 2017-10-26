@@ -11,7 +11,7 @@ import java.util.Queue;
 //
 //        You cannot pass through wall and house, but can pass through empty.
 //        You only build post office on an empty.
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        Given a grid:
 //

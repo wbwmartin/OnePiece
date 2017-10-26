@@ -6,7 +6,7 @@
 //
 //        n and k are non-negative integers.
 //
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        Given n=3, k=2 return 6
 //

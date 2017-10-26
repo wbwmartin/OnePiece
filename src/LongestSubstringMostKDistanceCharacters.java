@@ -3,7 +3,7 @@ import java.util.Map;
 
 //Given a string s, find the length of the longest substring T that contains at most k distinct characters.
 //
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        For example, Given s = "eceba", k = 3,
 //

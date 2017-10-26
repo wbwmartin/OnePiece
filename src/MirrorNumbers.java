@@ -5,7 +5,7 @@ import java.util.Map;
 //
 //        Write a function to determine if a number is mirror. The number is represented as a string.
 //
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        For example, the numbers "69", "88", and "818" are all mirror numbers.
 //        Given num = "69" return true

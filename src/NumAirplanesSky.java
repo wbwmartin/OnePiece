@@ -12,7 +12,7 @@ import java.util.List;
 //
 //        If landing and flying happens at the same time, we consider landing should happen at first.
 //
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        For interval list
 //
@@ -65,7 +65,6 @@ public class NumAirplanesSky {
         return max;
     }
 
-    // unit test
     public static void main(String[] args) {
         List<Interval> a = new ArrayList<>();
         a.add(new Interval(1, 10));

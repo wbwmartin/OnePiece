@@ -28,31 +28,31 @@ public class MaxTree {
         }
         Stack<TreeNode> stack = new Stack<>();
         for (int i = 0; i <= A.length; i++) {
-            TreeNode cur = new TreeNode(i < A.length ? A[i] : Integer.MAX_VALUE);
+            TreeNode right = new TreeNode(i < A.length ? A[i] : Integer.MAX_VALUE);
             while (!stack.empty()) {
-                if (stack.peek().val > cur.val) {
+                if (stack.peek().val > right.val) {
                     break;
                 } else {
-                    TreeNode top = stack.pop();
-                    if (stack.empty() || stack.peek().val > cur.val) {
-                        cur.left = top;
+                    TreeNode cur = stack.pop();
+                    TreeNode left = stack.empty() ? null : stack.peek();
+                    if (stack.empty() || left.val > right.val) {
+                        right.left = cur;
                     } else {
-                        stack.peek().right = top;
+                        left.right = cur;
                     }
                 }
             }
-            stack.push(cur);
+            stack.push(right);
         }
         return stack.pop().left;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] A = {2, 5, 6, 0, 3, 1};
         TreeNode node = maxTree(A);
         List<List<Integer>> res = BTLevelOrderTraversal.levelOrder(node);
         for (List<Integer> i : res) {
-            for (Integer j : i) {
+            for (int j : i) {
                 System.out.print(j + " "); // 6 | 5 3 | 2 0 1
             }
             System.out.println();

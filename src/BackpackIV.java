@@ -3,7 +3,7 @@
 //
 //        Each item may be chosen unlimited number of times
 //
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        Given candidate items [2,3,6,7] and target 7,
 //

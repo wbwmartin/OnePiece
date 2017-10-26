@@ -5,7 +5,7 @@ import java.util.Queue;
 //
 //		A region is captured by flipping all 'O''s into 'X''s in that surrounded region.
 //
-//		Have you met this question in a real interview? Yes
+//
 //		Example
 //		X X X X
 //		X O O X

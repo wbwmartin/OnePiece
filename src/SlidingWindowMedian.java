@@ -4,7 +4,7 @@ import java.util.TreeSet;
 
 //Given an array of n integer, and a moving window(size k), move the window at each iteration from the start of the array, find the median of the element inside the window at each moving. (If there are even numbers in the array, return the N/2-th number after sorting the element in the window. )
 //
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        For array [1,2,7,8,5], moving window size k = 3. return [2,7,7]
 //

@@ -6,7 +6,7 @@ import java.util.List;
 //
 //        Please implement encode and decode
 //
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        Given strs = ["lint","code","love","you"]
 //        string encoded_string = encode(strs)

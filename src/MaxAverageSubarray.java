@@ -11,8 +11,8 @@
 
 public class MaxAverageSubarray {
 
+    // O(nlog(max - min)), binary search by value
     public static double maxAverage(int[] nums, int k) {
-        // Write your code here
         double l = Integer.MAX_VALUE;
         double r = Integer.MIN_VALUE;
         double res = 0;

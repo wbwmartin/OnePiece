@@ -8,7 +8,7 @@ import java.util.Map;
 //        Add a new server to the cluster => add(server_id).
 //        Remove a bad server from the cluster => remove(server_id).
 //        Pick a server in the cluster randomly with equal probability => pick().
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        At beginning, the cluster is empty => {}.
 //

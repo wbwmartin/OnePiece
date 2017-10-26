@@ -10,7 +10,7 @@ import java.util.*;
 //
 //        Please merge the adjacent outlines if they have the same height and make sure different outlines cant overlap on x-axis.
 //
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        Given 3 buildings：
 //
@@ -73,13 +73,11 @@ public class BuildingOutlines {
                 if (cur != pre) {
                     if (cur.val == pre.val) {
                         cur.pos = pre.pos;
-                        continue;
                     } else {
                         output(res, pre.pos, next.pos, pre.val);
                         cur.pos = next.pos;
                     }
                 }
-
             }
         }
         return res;

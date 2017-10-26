@@ -7,7 +7,7 @@
 //
 //        The function prototype should be:
 //        bool isMatch(string s, string p)
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        isMatch("aa","a") → false
 //        isMatch("aa","aa") → true

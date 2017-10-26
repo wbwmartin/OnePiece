@@ -2,7 +2,7 @@
 //
 //        Now each grid contains a value, so each path also has a value. Find the sum of all the unique values paths.
 //
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        For example,
 //

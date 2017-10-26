@@ -1,6 +1,6 @@
 //Merge two given sorted integer array A and B into a new sorted integer array.
 //
-//        Have you met this question in a real interview? Yes
+//
 //        Example
 //        A=[1,2,3,4]
 //

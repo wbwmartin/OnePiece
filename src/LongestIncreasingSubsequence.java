@@ -2,7 +2,6 @@
 //
 //        You code should return the length of the LIS.
 //
-//        Have you met this question in a real interview? Yes
 //        Clarification
 //        What's the definition of longest increasing subsequence?
 //
@@ -59,8 +58,8 @@ public class LongestIncreasingSubsequence {
     }
 
     public static void main(String[] args) {
-        int[] nums = {};
-        System.out.println();
+        int[] nums = {5, 4, 1, 2, 3};
+        System.out.println(longestIncreasingSubsequence(nums)); // 3
     }
 }
 
