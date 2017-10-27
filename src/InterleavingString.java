@@ -32,7 +32,6 @@ public class InterleavingString {
         return dp[s1.length()][s2.length()];
     }
 
-    // unit test
     public static void main(String[] args) {
         String s1 = "aabcc";
         String s2 = "dbbca";

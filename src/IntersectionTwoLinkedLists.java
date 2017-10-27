@@ -95,7 +95,6 @@ public class IntersectionTwoLinkedLists {
         return null;
     }
 
-    // unit test
     public static void main(String[] args) {
         ListNode a = new ListNode(2);
         ListNode b = new ListNode(3);

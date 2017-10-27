@@ -27,7 +27,6 @@ public class LengthLastWord {
         return count;
     }
 
-    // unit test
     public static void main(String[] args) {
         String s = " Hello World   ";
         System.out.println(lengthOfLastWord(s)); // 5

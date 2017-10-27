@@ -39,7 +39,6 @@ public class Anagrams {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         String[] strs = {"abc", "cba", "kk", "cd", "dc", "bca"};
         System.out.println(anagrams(strs));

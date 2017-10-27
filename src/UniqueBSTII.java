@@ -22,7 +22,6 @@ public class UniqueBSTII {
         return count[n];
     }
 
-    // unit test
     public static void main(String[] args) {
         int n = 3;
         System.out.println(numTrees(n)); // 5

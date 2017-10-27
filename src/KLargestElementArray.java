@@ -46,7 +46,6 @@ public class KLargestElementArray {
         return left;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] nums = {2, 1, 5, 4, 3, 5};
         int k = 2;

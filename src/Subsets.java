@@ -62,7 +62,6 @@ public class Subsets {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] S = {1, 2, 3};
         List<List<Integer>> res = subsets(S);

@@ -48,7 +48,6 @@ public class NQueensII {
         return true;
     }
 
-    // unit test
     public static void main(String[] args) {
         int n = 4;
         System.out.println(totalNQueens(n)); // 2

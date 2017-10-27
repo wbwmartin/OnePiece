@@ -17,7 +17,6 @@ public class FindMinRotatedSortedArrayII {
         return min;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] nums = {4, 5, 5, 5, 1, 1, 2}; // 1
         System.out.println(findMin(nums));

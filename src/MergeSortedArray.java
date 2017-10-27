@@ -29,7 +29,6 @@ public class MergeSortedArray {
         }
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] A = {1, 3, 5, 0, 0};
         int[] B = {2, 4};

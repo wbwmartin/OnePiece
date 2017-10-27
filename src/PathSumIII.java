@@ -51,7 +51,6 @@ public class PathSumIII {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         TreeNode a = new TreeNode(10);
         TreeNode b = new TreeNode(5);

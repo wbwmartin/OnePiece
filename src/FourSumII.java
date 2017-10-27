@@ -45,7 +45,6 @@ public class FourSumII {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] A = {1, 2};
         int[] B = {-2, -1};

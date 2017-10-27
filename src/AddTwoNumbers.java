@@ -44,7 +44,6 @@ public class AddTwoNumbers {
         return dummy.next;
     }
 
-    // unit test
     public static void main(String[] args) {
         ListNode a = new ListNode(2);
         ListNode b = new ListNode(4);

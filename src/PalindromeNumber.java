@@ -32,7 +32,6 @@ public class PalindromeNumber {
         return true;
     }
 
-    // unit test
     public static void main(String[] args) {
         int i = 12321;
         System.out.println(isPalindrome(i)); // true

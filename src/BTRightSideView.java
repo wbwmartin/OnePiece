@@ -61,7 +61,6 @@ public class BTRightSideView {
         rightView(curr.left, result, currDepth + 1);
     }
 
-    // unit test
     public static void main(String[] args) {
         TreeNode a = new TreeNode(1);
         TreeNode b = new TreeNode(2);

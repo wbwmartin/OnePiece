@@ -40,7 +40,6 @@ public class Candy {
         return sum;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] r = {1, 3, 3, 2, 1};
         System.out.println(candy(r)); // 9

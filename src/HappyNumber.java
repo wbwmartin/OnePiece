@@ -40,7 +40,6 @@ public class HappyNumber {
         return sum;
     }
 
-    // unit test
     public static void main(String[] args) {
         System.out.println(isHappy(19)); // true
     }

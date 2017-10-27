@@ -43,7 +43,6 @@ public class HouseRobberIII {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         TreeNode a = new TreeNode(3);
         TreeNode b = new TreeNode(4);

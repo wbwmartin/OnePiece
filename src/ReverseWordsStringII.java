@@ -35,7 +35,6 @@ public class ReverseWordsStringII {
         }
     }
 
-    // unit test
     public static void main(String[] args) {
         String s = "the sky is blue";
         System.out.println(reverseWords(s)); // blue is sky the

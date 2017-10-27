@@ -123,7 +123,6 @@ public class RemoveNodeBST {
         return res.left;
     }
 
-    // unit test
     public static void main(String[] args) {
         TreeNode a = new TreeNode(5);
         TreeNode b = new TreeNode(3);

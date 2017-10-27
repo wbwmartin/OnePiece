@@ -28,7 +28,6 @@ public class MergeIntervals {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         List<Interval> a = new ArrayList<>();
         a.add(new Interval(1, 3));

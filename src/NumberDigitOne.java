@@ -20,7 +20,6 @@ public class NumberDigitOne {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         System.out.println(countDigitOne(13)); // 6
     }

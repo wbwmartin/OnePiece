@@ -51,7 +51,6 @@ public class CompareVersionNumbers {
         }
     }
 
-    // unit test
     public static void main(String[] args) {
         String s1 = "1.0";
         String s2 = "1.0.1";

@@ -35,7 +35,6 @@ public class ReverseInteger {
         return (int) res;
     }
 
-    // unit test
     public static void main(String[] args) {
         int i = -123;
         System.out.println(reverse(i)); // -321

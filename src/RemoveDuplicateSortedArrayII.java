@@ -43,7 +43,6 @@ public class RemoveDuplicateSortedArrayII {
         return left + 1;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] A = {1, 1, 2, 3, 3, 3};
         int index = removeDuplicates2(A);

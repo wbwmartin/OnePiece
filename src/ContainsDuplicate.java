@@ -22,7 +22,6 @@ public class ContainsDuplicate {
         return false;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] nums = {1, 4, 3, 1, 2}; // true
         System.out.println(containsDuplicate(nums));

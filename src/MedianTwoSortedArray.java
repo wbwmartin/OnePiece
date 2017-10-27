@@ -57,7 +57,6 @@ public class MedianTwoSortedArray {
         }
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] a = {1, 2};
         int[] b = {3, 4, 5, 6, 7, 8};

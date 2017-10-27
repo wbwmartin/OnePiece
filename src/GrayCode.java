@@ -34,7 +34,6 @@ public class GrayCode {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         List<Integer> res = grayCode(2); // [0, 1, 3, 2]
         System.out.println(res);

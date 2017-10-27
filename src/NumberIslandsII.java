@@ -104,7 +104,6 @@ public class NumberIslandsII {
         return x * m + y + 1;
     }
 
-    // unit test
     public static void main(String[] args) {
         Point[] points = new Point[4];
         points[0] = new Point(0, 0);

@@ -47,8 +47,7 @@ public class CountSay {
         }
         return res;
     }
-    
-    // unit test
+
     public static void main(String[] args) {
     	System.out.println(countAndSay(4)); // 1211
     }

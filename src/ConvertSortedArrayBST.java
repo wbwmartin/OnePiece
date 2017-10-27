@@ -26,7 +26,6 @@ public class ConvertSortedArrayBST {
         return root;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] nums = {1, 2, 3, 4, 5};
         TreeNode res = sortedArrayToBST(nums);

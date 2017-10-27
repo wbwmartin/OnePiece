@@ -33,7 +33,6 @@ public class GasStation {
         return index;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] gas = {1, 1, 3, 1};
         int[] cost = {2, 2, 1, 1};

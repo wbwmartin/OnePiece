@@ -35,7 +35,6 @@ public class ClimbingStairs {
         return sum2;
     }
 
-    // unit test
     public static void main(String[] args) {
         System.out.println(climbStairs(5)); // 8
     }

@@ -34,7 +34,6 @@ public class LargestRectangleHistogram {
         return max;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] h = {2, 1, 5, 6, 2, 3}; // 10
         System.out.println(largestRectangleArea(h));

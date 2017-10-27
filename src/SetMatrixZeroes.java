@@ -54,7 +54,6 @@ public class SetMatrixZeroes {
         }
     }
 
-    // unit test
     public static void main(String[] args) {
         int[][] matrix = {{1, 2}, {0, 3}};
         setZeroes(matrix);

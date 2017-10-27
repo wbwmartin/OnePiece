@@ -34,7 +34,6 @@ public class SingleNumberIII {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] a = {1, 2, 1, 3, 2, 5};
         System.out.println(singleNumberIII(a)); // 3 5

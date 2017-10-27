@@ -23,7 +23,6 @@ public class Pow {
         return sign ? 1 / res : res;
     }
 
-    // unit test
     public static void main(String[] args) {
         System.out.println(myPow(2, -1));
     }

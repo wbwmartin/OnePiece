@@ -24,7 +24,6 @@ public class RemoveElements {
         return index;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] A = {1, 2, 3, 2, 4};
         int elem = 2;

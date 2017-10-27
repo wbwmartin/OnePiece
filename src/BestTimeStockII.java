@@ -21,7 +21,6 @@ public class BestTimeStockII {
         return profit;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] a = {2,1,2,0,1};
         System.out.println(maxProfit(a)); // 2

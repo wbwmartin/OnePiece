@@ -38,7 +38,6 @@ public class GroupAnagrams {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
         List<List<String>> res = groupAnagrams(strs); // [[ate, eat, tea], [bat], [nat, tan]]

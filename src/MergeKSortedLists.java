@@ -91,7 +91,6 @@ public class MergeKSortedLists {
         return dummy.next;
     }
 
-    // unit test
     public static void main(String[] args) {
         ListNode a = new ListNode(1);
         ListNode b = new ListNode(4);

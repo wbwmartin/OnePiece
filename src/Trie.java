@@ -73,7 +73,6 @@ public class Trie {
         return true;
     }
 
-    // unit test
     public static void main(String[] args) {
         Trie trie = new Trie();
         trie.insert("ab");

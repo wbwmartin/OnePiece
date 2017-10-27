@@ -35,7 +35,6 @@ public class Gcd {
         return a * b / gcd(a, b);
     }
 
-    // unit test
     public static void main(String[] args) {
         System.out.println(gcd2(8, 12)); // 4
         System.out.println(lcm(8, 12)); // 24

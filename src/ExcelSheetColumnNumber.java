@@ -24,7 +24,6 @@ public class ExcelSheetColumnNumber {
         return sum;
     }
 
-    // unit test
     public static void main(String[] args) {
         String s = "AB";
         System.out.println(titleToNumber(s)); // 28

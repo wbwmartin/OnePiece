@@ -17,7 +17,6 @@ public class PowerTwo {
         return n > 0 && (n & (n - 1)) == 0;
     }
 
-    // unit test
     public static void main(String[] args) {
         System.out.println(isPowerOfTwo2(8)); // true
     }

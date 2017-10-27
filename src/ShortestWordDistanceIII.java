@@ -36,7 +36,6 @@ public class ShortestWordDistanceIII {
         return distance;
     }
 
-    // unit test
     public static void main(String[] args) {
         String[] words = {"practice", "makes", "perfect", "coding", "makes"};
         System.out.println(shortestWordDistance(words, "makes", "makes")); // 3

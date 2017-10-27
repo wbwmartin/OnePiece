@@ -25,7 +25,6 @@ public class ContainsDuplicateIII {
         return false;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] nums = {1, 10, 3, 20, 15};
         System.out.println(containsNearbyAlmostDuplicate(nums, 2, 2)); // true

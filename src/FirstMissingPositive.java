@@ -29,7 +29,6 @@ public class FirstMissingPositive {
         return nums.length + 1;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] nums = {3, 4, -1, 1};
         System.out.println(firstMissingPositive(nums)); // 2

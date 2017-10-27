@@ -61,7 +61,6 @@ public class DifferentWaysAddParentheses {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         String s = "2*3-4*5";
         System.out.println(diffWaysToCompute(s)); // [-34, -10, -14, -10, 10]

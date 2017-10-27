@@ -24,7 +24,6 @@ public class IntegerRoman {
         return res.toString();
     }
 
-    // unit test
     public static void main(String[] args) {
         int i = 199;
         System.out.println(intToRoman(i)); // CXCIX

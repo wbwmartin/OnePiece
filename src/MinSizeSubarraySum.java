@@ -31,7 +31,6 @@ public class MinSizeSubarraySum {
         return len == Integer.MAX_VALUE ? -1 : len;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] nums = {2, 3, 1, 2, 4, 3};
         int s = 7;

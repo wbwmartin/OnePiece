@@ -85,7 +85,6 @@ public class MinWindowSubstring {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         String s = "ADOBECODEBANC";
         String t = "ABC";

@@ -40,7 +40,6 @@ public class SortColors {
         nums[right] = temp;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] nums = {2, 0, 1, 1, 2, 1, 1, 0};
         sortColors(nums);

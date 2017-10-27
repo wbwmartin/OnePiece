@@ -44,7 +44,6 @@ public class JumpGame {
         return fastest >= nums.length - 1;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] A = {2, 3, 1, 1, 4};
         int[] B = {3, 2, 1, 0, 4};

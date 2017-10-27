@@ -43,7 +43,6 @@ public class PermutationSequence {
         return res.toString();
     }
 
-    // unit test
     public static void main(String[] args) {
         System.out.println(getPermutation(4, 15)); // 3214
     }

@@ -42,7 +42,6 @@ public class EvaluateReversePolish {
         return stack.pop();
     }
 
-    // unit test
     public static void main(String[] args) {
         String[] s1 = {"2", "1", "+", "3", "*"};
         String[] s2 = {"4", "13", "5", "/", "+"};

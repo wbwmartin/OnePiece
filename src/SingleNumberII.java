@@ -21,7 +21,6 @@ public class SingleNumberII {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] a = {1, 3, 2, 3, 3, 1, 1};
         System.out.println(singleNumber(a)); // 2

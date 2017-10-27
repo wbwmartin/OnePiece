@@ -83,7 +83,6 @@ public class NQueens {
         return list;
     }
 
-    // unit test
     public static void main(String[] args) {
         int n = 4;
         System.out.println(solveNQueens(n));

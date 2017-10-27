@@ -45,7 +45,6 @@ public class CombinationSumIII {
         }
     }
 
-    // unit test
     public static void main(String[] args) {
         List<List<Integer>> res = combinationSum(3, 9); // 1 2 6 | 1 3 5 | 2 3 4
         System.out.println(res);

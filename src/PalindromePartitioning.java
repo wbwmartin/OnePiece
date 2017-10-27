@@ -58,7 +58,6 @@ public class PalindromePartitioning {
         return true;
     }
 
-    // unit test
     public static void main(String[] args) {
         String s = "aab";
         List<List<String>> res = partition(s);

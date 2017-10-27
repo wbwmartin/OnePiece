@@ -39,8 +39,7 @@ public class ValidPalindrome {
     private static boolean isValid(Character c) {
         return Character.isLetter(c) || Character.isDigit(c);
     }
-    
-    // unit test
+
     public static void main(String[] args) {
         String s1 = "A man, a plan, a canal: Panama";
         String s2 = "race a car";

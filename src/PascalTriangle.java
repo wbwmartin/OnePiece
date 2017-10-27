@@ -37,7 +37,6 @@ public class PascalTriangle {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         System.out.println(generate(5));
     }

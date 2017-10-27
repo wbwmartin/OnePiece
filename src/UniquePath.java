@@ -22,8 +22,7 @@ public class UniquePath {
         }
         return res[n - 1];
     }
-    
-    // unit test
+
     public static void main(String[] args) {
     	System.out.println(uniquePaths(3, 3)); // 6
         System.out.println(uniquePaths(4, 5)); // 35

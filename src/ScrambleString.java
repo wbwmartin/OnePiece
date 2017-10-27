@@ -81,7 +81,6 @@ public class ScrambleString {
         return dp[0][0][s1.length()];
     }
 
-    // unit test
     public static void main(String[] args) {
         System.out.println(isScramble("a", "b")); // false
         System.out.println(isScramble("great", "rgeat")); // true

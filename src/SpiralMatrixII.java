@@ -33,7 +33,6 @@ public class SpiralMatrixII {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         int m = 3;
         int[][] res = generateMatrix(m);

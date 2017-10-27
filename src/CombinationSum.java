@@ -47,7 +47,6 @@ public class CombinationSum {
         }
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] S = {1, 1, 2, 3};
         int target = 4;

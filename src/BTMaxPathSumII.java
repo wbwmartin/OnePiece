@@ -23,7 +23,6 @@ public class BTMaxPathSumII {
         return Math.max(root.val, (Math.max(left, right) + root.val));
     }
 
-    // unit test
     public static void main(String[] args) {
         TreeNode a = new TreeNode(1);
         TreeNode b = new TreeNode(2);

@@ -52,7 +52,6 @@ public class ShortestPalindrome {
         return true;
     }
 
-    // unit test
     public static void main(String[] args) {
         String s1 = "aacecaaa";
         String s2 = "abcd";

@@ -72,7 +72,6 @@ public class WordBreak {
     }
 
 
-    // unit test
     public static void main(String[] args) {
         String s = "leetcode";
         Set<String> dict = new HashSet<>();

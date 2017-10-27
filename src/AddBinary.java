@@ -44,7 +44,6 @@ public class AddBinary {
         return res.reverse().toString();
     }
 
-    // unit test
     public static void main(String[] args) {
         String a = "11";
         String b = "1";

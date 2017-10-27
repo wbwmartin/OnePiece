@@ -17,7 +17,6 @@ public class FactorialTrailingZeroes {
         return count;
     }
 
-    // unit test
     public static void main(String[] args) {
         System.out.println(trailingZeroes(25)); // 6
     }

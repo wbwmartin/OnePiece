@@ -23,7 +23,6 @@ public class ReverseWordsString {
         return sb.substring(0, sb.length() - 1);
     }
 
-    // unit test
     public static void main(String[] args) {
         String s = "  the sky is    blue   ";
         System.out.println(reverseWords(s)); // blue is sky the

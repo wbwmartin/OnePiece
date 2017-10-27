@@ -22,7 +22,6 @@ public class StrStr {
         return -1;
     }
 
-    // unit test
     public static void main(String[] args) {
         String a = "abcde";
         String b = "de";

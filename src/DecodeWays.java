@@ -32,7 +32,6 @@ public class DecodeWays {
         return num[s.length()];
     }
 
-    // unit test
     public static void main(String[] args) {
         String s1 = "102";
         String s2 = "302";

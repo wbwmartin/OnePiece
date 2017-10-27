@@ -37,7 +37,6 @@ public class IsomorphicStrings {
         return true;
     }
 
-    // unit test
     public static void main(String[] args) {
         System.out.println(isIsomorphic("egg", "add")); // true
         System.out.println(isIsomorphic("foo", "bar")); // false

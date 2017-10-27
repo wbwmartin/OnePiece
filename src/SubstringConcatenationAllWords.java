@@ -56,7 +56,6 @@ public class SubstringConcatenationAllWords {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         String s = "barfoothefoobarman";
         String[] words = {"foo", "bar"};

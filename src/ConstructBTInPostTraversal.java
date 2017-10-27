@@ -41,7 +41,6 @@ public class ConstructBTInPostTraversal {
         return -1;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] inorder = {4, 2, 5, 1, 6, 3, 7};
         int[] postorder = {4, 5, 2, 6, 7, 3, 1};

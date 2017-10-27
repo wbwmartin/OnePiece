@@ -62,7 +62,6 @@ public class BinaryRepresentation {
         return res.toString();
     }
 
-    // unit test
     public static void main(String[] args) {
         String a = "3.5";
         String b = "3.72";

@@ -23,7 +23,6 @@ public class PlusOne {
         return result;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] a = {1, 0, 9};
         int[] res = plusOne(a);

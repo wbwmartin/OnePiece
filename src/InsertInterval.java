@@ -34,7 +34,6 @@ public class InsertInterval {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         List<Interval> list = new ArrayList<>();
         list.add(new Interval(1, 3));

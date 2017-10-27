@@ -30,7 +30,6 @@ public class RomanInteger {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         String s = "CXCIX";
         System.out.println(romanToInt(s)); // 199

@@ -38,7 +38,6 @@ public class StringToInteger {
         return (int) (sum * sign);
     }
 
-    // unit test
     public static void main(String[] args) {
         String s = "   -0015sd2+21";
         System.out.println(myAtoi(s)); // -15

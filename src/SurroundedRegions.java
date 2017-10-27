@@ -95,7 +95,6 @@ public class SurroundedRegions {
     }
 
 
-    // unit test
     public static void main(String[] args) {
         char[][] matrix = {{'X', 'X', 'X', 'X'}, {'X', 'O', 'O', 'X'},
                 {'X', 'X', 'O', 'X'}, {'X', 'O', 'X', 'X'}};

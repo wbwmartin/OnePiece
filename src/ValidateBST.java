@@ -102,7 +102,6 @@ public class ValidateBST {
         return helper(root.left, low, root.val) && helper(root.right, root.val, high);
     }
 
-    // unit test
     public static void main(String[] args) {
         TreeNode a = new TreeNode(4);
         TreeNode b = new TreeNode(2);

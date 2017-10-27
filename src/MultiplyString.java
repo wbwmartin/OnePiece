@@ -39,8 +39,7 @@ public class MultiplyString {
         }
         return sb.toString();
     }
-    
-    // unit test
+
     public static void main(String[] args) {
     	System.out.println(multiply("94", "987")); // 92778
     }

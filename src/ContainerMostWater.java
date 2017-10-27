@@ -27,7 +27,6 @@ public class ContainerMostWater {
         return max;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] h = {3, 2, 5, 4, 1}; // 9
         System.out.println(maxArea(h));

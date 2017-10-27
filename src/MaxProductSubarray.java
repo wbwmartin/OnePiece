@@ -22,7 +22,6 @@ public class MaxProductSubarray {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] a = {2, 3, -2, 4}; // 6
         System.out.println(maxProduct(a));

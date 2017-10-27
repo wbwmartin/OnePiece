@@ -38,7 +38,6 @@ public class CombinationSumIV {
         return dp[target];
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] S = {1, 2, 3};
         System.out.println(combinationSum(S, 4)); // 7

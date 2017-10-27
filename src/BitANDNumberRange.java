@@ -18,7 +18,6 @@ public class BitANDNumberRange {
         return m << i;
     }
 
-    // unit test
     public static void main(String[] args) {
         int m = 5;
         int n = 7;

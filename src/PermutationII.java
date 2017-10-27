@@ -44,7 +44,6 @@ public class PermutationII {
         }
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] S = {1, 1, 2};
         List<List<Integer>> res = permuteUnique(S);

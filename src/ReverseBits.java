@@ -40,7 +40,6 @@ public class ReverseBits {
         return reverse;
     }
 
-    // unit test
     public static void main(String[] args) {
         int i = 43261596;
         System.out.println(reverseBits0(i)); // 964176192

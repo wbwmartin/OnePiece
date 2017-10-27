@@ -53,7 +53,6 @@ public class JumpGameII {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] A = {2, 3, 1, 1, 4};
         System.out.println(jump2(A)); // 2

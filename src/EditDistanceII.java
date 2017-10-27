@@ -32,7 +32,6 @@ public class EditDistanceII {
         return flag || !flag && s.length() != t.length();
     }
 
-    // unit test
     public static void main(String[] args) {
         String a = "abc";
         String b = "abcd";

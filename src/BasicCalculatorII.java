@@ -48,7 +48,6 @@ public class BasicCalculatorII {
         return result;
     }
 
-    // unit test
     public static void main(String[] args) {
         String s1 = "3+2* 2";
         String s2 = " 3/2 ";

@@ -28,7 +28,6 @@ public class ValidParentheses {
         return stack.empty();
     }
 
-    // unit test
     public static void main(String[] args) {
         String s1 = "()[]{}";
         String s2 = "([)]";

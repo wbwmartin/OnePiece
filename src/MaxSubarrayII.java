@@ -43,7 +43,6 @@ public class MaxSubarrayII {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         Integer[] a = {-2, 2, -3, 4, -1, 2, 1, -5, 3};
         List<Integer> res = new ArrayList<>(Arrays.asList(a));

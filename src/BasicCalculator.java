@@ -84,7 +84,6 @@ public class BasicCalculator {
         return result;
     }
 
-    // unit test
     public static void main(String[] args) {
         String s = " 2-1 + 2 ";
         String s2 = "(1+(4+5+2)-3)+(6+8)";

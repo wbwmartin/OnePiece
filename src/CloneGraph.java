@@ -47,7 +47,6 @@ public class CloneGraph {
         return map.get(node);
     }
 
-    // unit test
     public static void main(String[] args) {
         Integer i = null;
         System.out.println(Integer.parseInt(null));

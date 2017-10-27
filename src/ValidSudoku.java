@@ -50,7 +50,6 @@ public class ValidSudoku {
         return true;
     }
 
-    // unit test
     public static void main(String[] args) {
 
     }

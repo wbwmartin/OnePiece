@@ -70,7 +70,6 @@ public class SimplifyPath {
         return res.toString();
     }
 
-    // unit test
     public static void main(String[] args) {
         String path = "/a/./b/../../c/";
         System.out.println(simplifyPath2(path)); //"/c"

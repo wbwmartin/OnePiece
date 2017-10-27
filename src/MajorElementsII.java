@@ -55,7 +55,6 @@ public class MajorElementsII {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] nums = {1, 2, 5, 2, 1, 1, 1, 2};
         System.out.println(majorityElement(nums)); // 1 2

@@ -22,7 +22,6 @@ public class RectangleArea {
         return (int) (sum - (right - left) * (top - bottom));
     }
 
-    // unit test
     public static void main(String[] args) {
         int res = computeArea2(0, 0, 0, 0, -1, -1, 1, 1);
         int res2 = computeArea2(-1500000001, 0, -1500000000, 1, 1500000000, 0, 1500000001, 1);

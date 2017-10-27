@@ -42,7 +42,6 @@ public class PalindromePartitioningII {
         return isPalindrome;
     }
 
-    // unit test
     public static void main(String[] args) {
         String s = "aab";
         System.out.println(minCut(s)); // 1

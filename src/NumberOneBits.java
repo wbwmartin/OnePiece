@@ -16,7 +16,6 @@ public class NumberOneBits {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         System.out.println(hammingWeight(7)); // 3
         System.out.println(-1 >>> 1);

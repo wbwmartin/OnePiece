@@ -39,7 +39,6 @@ public class HouseRobberII {
         return Math.max(dp[0], dp[1]);
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] nums = {2, 1, 3, 6};
         System.out.println(rob(nums)); // 7

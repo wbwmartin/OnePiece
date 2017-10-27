@@ -62,7 +62,6 @@ public class WordLadder {
         return new String(chars);
     }
 
-    // unit test
     public static void main(String[] args) {
         String start = "hit";
         String end = "cog";

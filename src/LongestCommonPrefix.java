@@ -20,7 +20,6 @@ public class LongestCommonPrefix {
         return res.toString();
     }
 
-    // unit test
     public static void main(String[] args) {
         String[] strs = {"abc", "abcd", "abcde", "ab"};
         System.out.println(longestCommonPrefix(strs)); // "ab"

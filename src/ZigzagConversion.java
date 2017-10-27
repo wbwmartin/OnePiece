@@ -35,7 +35,6 @@ public class ZigzagConversion {
         return res.toString();
     }
 
-    // unit test
     public static void main(String[] args) {
         String s = "123456789";
         int n = 3;

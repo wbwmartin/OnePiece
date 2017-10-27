@@ -36,7 +36,6 @@ public class LetterCombinations {
         }
     }
 
-    // unit test
     public static void main(String[] args) {
         String num = "23";
         List<String> res = letterCombinations(num);

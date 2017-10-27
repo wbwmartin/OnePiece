@@ -39,7 +39,6 @@ public class GenerateParentheses {
         helper(res, item + ")", left, right - 1);
     }
 
-    // unit test
     public static void main(String[] args) {
         List<String> res = generateParenthesis(3);
         System.out.println(res); // [((())), (()()), (())(), ()(()), ()()()]

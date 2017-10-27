@@ -84,7 +84,6 @@ public class WordLadderII {
         return expansion;
     }
 
-    // unit test
     public static void main(String[] args) {
         String start = "hit";
         String end = "cog";

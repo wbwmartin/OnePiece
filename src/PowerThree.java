@@ -6,7 +6,6 @@ public class PowerThree {
         return (Math.log10(n) / Math.log10(3)) % 1 == 0;
     }
 
-    // unit test
     public static void main(String[] args) {
         System.out.println(isPowerOfThree(27)); // true
     }

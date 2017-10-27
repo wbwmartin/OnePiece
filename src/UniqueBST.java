@@ -42,7 +42,6 @@ public class UniqueBST {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         int n = 3;
         List<TreeNode> res = generateTrees(n);

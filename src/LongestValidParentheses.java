@@ -39,7 +39,6 @@ public class LongestValidParentheses {
         return max;
     }
 
-    // unit test
     public static void main(String[] args) {
         String s = ")()())";
         System.out.println(longestValidParentheses(s)); // 4

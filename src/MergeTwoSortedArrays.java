@@ -41,7 +41,6 @@ public class MergeTwoSortedArrays {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] A = {1, 3, 5};
         int[] B = {2, 4};

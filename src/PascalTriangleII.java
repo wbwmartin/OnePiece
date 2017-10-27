@@ -29,7 +29,6 @@ public class PascalTriangleII {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         System.out.println(getRow(2)); // 1 2 1
     }

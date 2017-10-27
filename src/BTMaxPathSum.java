@@ -37,7 +37,6 @@ public class BTMaxPathSum {
         return sum;
     }
 
-    // unit test
     public static void main(String[] args) {
         TreeNode a = new TreeNode(1);
         TreeNode b = new TreeNode(2);

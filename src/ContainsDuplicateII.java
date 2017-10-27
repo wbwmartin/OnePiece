@@ -22,7 +22,6 @@ public class ContainsDuplicateII {
         return false;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] nums = {1, 4, 3, 1, 2};
         System.out.println(containsNearbyDuplicate(nums, 3)); // true

@@ -56,7 +56,6 @@ public class DivideTwoIntegers {
         return isNegative ? -result : result;
     }
 
-    // unit test
     public static void main(String[] args) {
         int res = divide2(-5, 2);
         System.out.println(res); // -2

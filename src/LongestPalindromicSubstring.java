@@ -73,7 +73,6 @@ public class LongestPalindromicSubstring {
         }
     }
 
-    // unit test
     public static void main(String[] args) {
         String s = "abcdzdcab";
         System.out.println(longestPalindrome(s)); // cdzdc

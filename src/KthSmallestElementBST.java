@@ -41,7 +41,6 @@ public class KthSmallestElementBST {
         return 0;
     }
 
-    // unit test
     public static void main(String[] args) {
         TreeNode a = new TreeNode(4);
         TreeNode b = new TreeNode(2);

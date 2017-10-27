@@ -26,7 +26,6 @@ public class ExcelSheetColumnTitle {
         return res.reverse().toString();
     }
 
-    // unit test
     public static void main(String[] args) {
         String res = convertToTitle(27);
         System.out.println(res); // "AA"

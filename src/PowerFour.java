@@ -6,7 +6,6 @@ public class PowerFour {
         return n > 0 && (n & (n - 1)) == 0 && (n - 1) % 3 == 0;
     }
 
-    // unit test
     public static void main(String[] args) {
         System.out.println(isPowerOfFour(16)); // true
         System.out.println(isPowerOfFour(8)); // false

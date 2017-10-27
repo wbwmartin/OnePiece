@@ -106,7 +106,6 @@ public class CourseSchedule {
     }
 
 
-    // unit test
     public static void main(String[] args) {
         int n = 4;
         int[][] pre = {{1, 0}, {2, 1}, {3, 2}, {1, 3}};

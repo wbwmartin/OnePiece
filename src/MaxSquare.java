@@ -30,8 +30,7 @@ public class MaxSquare {
         }
         return max * max;
     }
-    
-    // unit test
+
     public static void main(String[] args) {
     	int[][] matrix = {{1, 0, 1}, {0, 1, 1}, {0, 1, 1}};
     	System.out.println(maximalSquare(matrix)); // 4

@@ -68,8 +68,7 @@ public class WordSearchII {
     	helper(res, board, trie, word, i, j + 1);
     	board[i][j] = c;
     }
-    
-    // unit test
+
     public static void main(String[] args) {
     	String[] words = {"oath", "pea", "eat", "rain"};
     	char[][] board = {{'o', 'a', 'a', 'n'}, {'e', 't', 'a', 'e'},

@@ -35,7 +35,6 @@ public class SummaryRanges {
         return res;
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] nums = {0, 1, 2, 4, 5, 7};
         List<String> res = summaryRanges(nums);

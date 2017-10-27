@@ -68,7 +68,6 @@ public class PopulateNextRightPointer {
         }
     }
 
-    // unit test
     public static void main(String[] args) {
         TreeLinkNode a = new TreeLinkNode(1);
         TreeLinkNode b = new TreeLinkNode(2);

@@ -27,7 +27,6 @@ public class LargestNumber {
         return res.toString();
     }
 
-    // unit test
     public static void main(String[] args) {
         int[] nums = {3, 30, 34, 5, 9};
         System.out.println(largestNumber(nums)); // 9534330
