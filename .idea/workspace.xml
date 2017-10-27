@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00eb12d7-99a9-45ff-bc09-b62bb8c4cb9a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BurstBalloons.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CoinsInLineIII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CopyBooksII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FindMissingNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FindMissingNumberII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LongestCommonSubstring.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LongestRepeatingSubsequence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StoneGame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StoneGameII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SubTree.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnePiece/RemoveDupSortedArray.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnePiece/RemoveDupSortedArrayII.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnePiece/RemoveDupSortedList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnePiece/RemoveDupSortedListII.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/RemoveDupSortedArray.java" afterPath="$PROJECT_DIR$/src/RemoveDuplicateSortedArray.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/RemoveDupSortedArrayII.java" afterPath="$PROJECT_DIR$/src/RemoveDuplicateSortedArrayII.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/RemoveDupSortedList.java" afterPath="$PROJECT_DIR$/src/RemoveDuplicateSortedList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/RemoveDupSortedListII.java" afterPath="$PROJECT_DIR$/src/RemoveDuplicateSortedListII.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BackpackII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BackpackII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BackpackV.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BackpackV.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BuildPostOffice.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BuildPostOffice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/CoinsInLineII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/CoinsInLineII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/EditDistance.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/EditDistance.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/KEditDistance.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/KEditDistance.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MinAdjustmentCost.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MinAdjustmentCost.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ScrambleString.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ScrambleString.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BackpackII.java" afterPath="$PROJECT_DIR$/src/BackpackII.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BackpackV.java" afterPath="$PROJECT_DIR$/src/BackpackV.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BuildPostOffice.java" afterPath="$PROJECT_DIR$/src/BuildPostOffice.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CoinsInLineII.java" afterPath="$PROJECT_DIR$/src/CoinsInLineII.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EditDistance.java" afterPath="$PROJECT_DIR$/src/EditDistance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/KEditDistance.java" afterPath="$PROJECT_DIR$/src/KEditDistance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LongestPalindromicSubstring.java" afterPath="$PROJECT_DIR$/src/LongestPalindromicSubstring.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MinAdjustmentCost.java" afterPath="$PROJECT_DIR$/src/MinAdjustmentCost.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ScrambleString.java" afterPath="$PROJECT_DIR$/src/ScrambleString.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ValidAnagrams.java" afterPath="$PROJECT_DIR$/src/ValidAnagrams.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -114,8 +79,8 @@
       <file leaf-file-name="ValidAnagrams.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ValidAnagrams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+            <state relative-caret-position="244">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -176,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ConnectedComponnetUndirectedGraph.java" />
         <option value="$PROJECT_DIR$/src/FindWeakConnectedComponentDirectedGraph.java" />
         <option value="$PROJECT_DIR$/src/SurroundedRegions.java" />
         <option value="$PROJECT_DIR$/src/GraphValidTree.java" />
@@ -227,6 +191,7 @@
         <option value="$PROJECT_DIR$/src/MinAdjustmentCost.java" />
         <option value="$PROJECT_DIR$/src/SubTree.java" />
         <option value="$PROJECT_DIR$/src/FindMissingNumber.java" />
+        <option value="$PROJECT_DIR$/src/ValidAnagrams.java" />
       </list>
     </option>
   </component>
@@ -479,6 +444,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -490,7 +456,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17043619" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2374798" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -966,8 +932,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ValidAnagrams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        <state relative-caret-position="244">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>

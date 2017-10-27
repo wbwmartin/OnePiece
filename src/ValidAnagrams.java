@@ -33,7 +33,6 @@ public class ValidAnagrams {
         return true;
     }
 
-    // unit test
     public static void main(String[] args) {
         String s = "anagram";
         String t = "nagaram";
