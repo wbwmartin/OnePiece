@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 //Given n items with size Ai and value Vi, and a backpack with size m. What's the maximum value can you put into the backpack?
 //
 //        Notice
@@ -11,21 +13,19 @@
 //        Challenge
 //        O(n x m) memory is acceptable, can you do it in O(m) memory?
 
-
 public class BackpackII {
 
     public static int backPackII(int m, int[] A, int V[]) {
         if (A == null || A.length == 0 || V == null || V.length == 0 || A.length != V.length || m <= 0) {
             return 0;
         }
-        boolean[] check = new boolean[m + 1];
-        check[0] = true;
         int[] dp = new int[m + 1];
+        Arrays.fill(dp, -1);
+        dp[0] = 0;
         int max = 0;
         for (int i = 0; i < A.length; i++) {
             for (int j = m; j >= 0; j--) {
-                if (j - A[i] >= 0 && check[j - A[i]]) {
-                    check[j] = true;
+                if (j - A[i] >= 0 && dp[j - A[i]] >= 0) {
                     dp[j] = Math.max(dp[j], dp[j - A[i]] + V[i]);
                     max = Math.max(max, dp[j]);
                 }

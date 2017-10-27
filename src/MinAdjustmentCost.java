@@ -6,11 +6,11 @@ import java.util.List;
 // integers are not greater than a given number target.
 //
 //        If the array before adjustment is A, the array after adjustment is B,
-//        you should minimize the sum of |A[i]-B[i]|
+//        you should minimize the dp of |A[i]-B[i]|
 //
 //        Notice
 //
-//        You can assume each number in the array is a positive integer and not greater than 100.
+//        You can asdpe each number in the array is a positive integer and not greater than 100.
 //
 //        Example
 //        Given [1,4,2,3] and target = 1, one of the solutions is [2,3,2,3],
@@ -24,17 +24,17 @@ public class MinAdjustmentCost {
         if (A == null || A.size() == 0) {
             return 0;
         }
-        int[][] sum = new int[2][101];
+        int[][] dp = new int[2][101];
         for (int i = 0; i < A.size(); i++) {
             for (int j = 1; j <= 100; j++) {
                 if (i == 0) {
-                    sum[0][j] = Math.abs(A.get(0) - j);
+                    dp[0][j] = Math.abs(A.get(0) - j);
                 } else {
-                    sum[i % 2][j] = Integer.MAX_VALUE;
+                    dp[i % 2][j] = Integer.MAX_VALUE;
                     for (int k = 1; k <= 100; k++) {
                         if (Math.abs(j - k) <= target) {
-                            int diff = sum[(i - 1) % 2][k] + Math.abs(A.get(i) - j);
-                            sum[i % 2][j] = Math.min(sum[i % 2][j], diff);
+                            int diff = dp[(i - 1) % 2][k] + Math.abs(A.get(i) - j);
+                            dp[i % 2][j] = Math.min(dp[i % 2][j], diff);
                         }
                     }
                 }
@@ -42,7 +42,7 @@ public class MinAdjustmentCost {
         }
         int res = Integer.MAX_VALUE;
         for (int i = 1; i <= 100; i++) {
-            res = Math.min(res, sum[(A.size() - 1) % 2][i]);
+            res = Math.min(res, dp[(A.size() - 1) % 2][i]);
         }
         return res;
     }

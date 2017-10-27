@@ -34,7 +34,6 @@ public class EditDistance {
         return res[m][n];
     }
 
-    // unit test
     public static void main(String[] args) {
         String a = "make";
         String b = "sale";

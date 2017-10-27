@@ -7,7 +7,7 @@
 //        Your function should return length = 5, with the first five elements of nums
 //        being 1, 1, 2, 2 and 3. It doesn't matter what you leave beyond the new length.
 
-public class RemoveDupSortedArrayII {
+public class RemoveDuplicateSortedArrayII {
 
     // duplicate twice, iterative
     public static int removeDuplicates2(int[] A) {

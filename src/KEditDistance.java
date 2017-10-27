@@ -46,7 +46,7 @@ public class KEditDistance {
                     if (target.charAt(i - 1) == c) {
                         next[i] = dp[i - 1];
                     } else {
-                        next[i] = Math.min(dp[i - 1] + 1, Math.min(next[i - 1] + 1, dp[i] + 1));
+                        next[i] = Math.min(dp[i - 1], Math.min(next[i - 1], dp[i])) + 1;
                     }
                 }
                 helper(node.children[c - 'a'], res, k, target, next);

@@ -6,7 +6,7 @@
 
 import Utils.ListNode;
 
-public class RemoveDupSortedList {
+public class RemoveDuplicateSortedList {
 
     // iteration
     public static ListNode deleteDuplicates(ListNode head) {

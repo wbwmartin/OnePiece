@@ -36,7 +36,7 @@ public class LongestPalindromicSubstring {
         }
     }
 
-    // O(n)
+    // O(n) https://www.felix021.com/blog/read.php?2040
     public static String longestPalindrome2(String s) {
         if (s == null || s.length() == 0) {
             return "";

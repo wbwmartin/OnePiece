@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 //There are n coins with different value in a line. Two players take turns to take one or two coins from left side until there are no more coins left. The player who take the coins with the most value wins.
 //
 //        Could you please decide the first player will win or lose?
@@ -15,20 +17,19 @@ public class CoinsInLineII {
             return false;
         }
         int[] dp = new int[values.length + 1];
-        boolean[] flag = new boolean[values.length + 1];
+        Arrays.fill(dp, -1);
         int sum = 0;
         for (int v : values) {
             sum += v;
         }
-        return sum < 2 * helper(values, dp, flag, values.length);
+        return sum < 2 * helper(values, dp, values.length);
     }
 
-    // memory search, flag for pruning
-    private static int helper(int[] values, int[] dp, boolean[] flag, int k) {
-        if (flag[k]) {
+    // memoization, pruning
+    private static int helper(int[] values, int[] dp, int k) {
+        if (dp[k] >= 0) {
             return dp[k];
         }
-        flag[k] = true;
         int n = values.length;
         if (k == 0) {
             dp[k] = 0;
@@ -40,8 +41,8 @@ public class CoinsInLineII {
             dp[k] = values[n - 2] + values[n - 3];
         } else {
             dp[k] = Math.max(
-                    Math.min(helper(values, dp, flag, k - 2), helper(values, dp, flag, k - 3)) + values[n - k],
-                    Math.min(helper(values, dp, flag, k - 3), helper(values, dp, flag, k - 4)) + values[n - k] + values[n - k + 1]
+                    Math.min(helper(values, dp, k - 2), helper(values, dp, k - 3)) + values[n - k],
+                    Math.min(helper(values, dp, k - 3), helper(values, dp, k - 4)) + values[n - k] + values[n - k + 1]
             );
         }
         return dp[k];

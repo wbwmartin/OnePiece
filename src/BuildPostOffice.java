@@ -24,7 +24,6 @@ public class BuildPostOffice {
 
     // time O(n^2*logk), space O(k)
     public static int shortestDistance(int[][] grid) {
-        // write your code here
         if (grid == null || grid.length == 0 || grid[0].length == 0) {
             return -1;
         }
