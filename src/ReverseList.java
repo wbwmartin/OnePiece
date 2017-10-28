@@ -44,10 +44,7 @@ public class ReverseList {
         c.next = d;
         d.next = e;
         ListNode res = reverseList(a);
-        while (res != null) {
-            System.out.print(res.val + " "); // 5 4 3 2 1
-            res = res.next;
-        }
+        System.out.println(res.toString());
     }
 
 }

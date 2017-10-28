@@ -22,7 +22,7 @@ public class AddOperators {
 
     private static void helper(List<String> res, String num, int target, String item, long cur, long preNum) {
         if (cur == target && num.length() == 0) {
-            res.add(new String(item));
+            res.add(item);
             return;
         }
         for (int i = 1; i <= num.length(); i++) {

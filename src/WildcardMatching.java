@@ -23,7 +23,7 @@ public class WildcardMatching {
         int n = p.length();
         boolean[][] dp = new boolean[m + 1][2];
         dp[0][0] = true;
-        boolean[] match = new boolean[m + 1];
+        boolean[] match = new boolean[m + 1]; // match represents for p[j] == *, if there is a match for the column
         Arrays.fill(match, true);
         for (int j = 1; j <= n; j++) {
             for (int i = 0; i <= m; i++) {

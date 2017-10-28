@@ -22,7 +22,6 @@ public class WordsAbbreviation {
         if (dict == null || dict.length == 0) {
             return new String[0];
         }
-
         int n = dict.length;
         String[] res = new String[n];
         List<Integer> results = new ArrayList<>();
@@ -44,7 +43,6 @@ public class WordsAbbreviation {
                     map.put(abbr, set);
                 }
             }
-
             List<Integer> next = new ArrayList<>();
             for (String word : map.keySet()) {
                 if (map.get(word).size() == 1) {

@@ -21,7 +21,7 @@ public class BTPreorderTraversal {
 
     // recursive, dfs traversal
     public static List<Integer> preorderTraversal(TreeNode root) {
-        List<Integer> res = new ArrayList<Integer>();
+        List<Integer> res = new ArrayList<>();
         helper(res, root);
         return res;
     }
@@ -37,7 +37,7 @@ public class BTPreorderTraversal {
 
     // recursive, d & c
     public static List<Integer> preorderTraversal2(TreeNode root) {
-        List<Integer> res = new ArrayList<Integer>();
+        List<Integer> res = new ArrayList<>();
         if (root == null) {
             return res;
         }
@@ -51,8 +51,8 @@ public class BTPreorderTraversal {
 
     // iterative, stack
     public static List<Integer> preorderTraversal3(TreeNode root) {
-        List<Integer> res = new ArrayList<Integer>();
-        Stack<TreeNode> stack = new Stack<TreeNode>();
+        List<Integer> res = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
         if (root == null) {
             return res;
         }

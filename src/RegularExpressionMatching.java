@@ -21,18 +21,18 @@ public class RegularExpressionMatching {
 
     //http://www.cnblogs.com/grandyang/p/4461713.html
     public static boolean isMatch(String s, String p) {
-        boolean[][] dp = new boolean[s.length() + 1][p.length() + 1];
+        boolean[][] dp = new boolean[2][p.length() + 1];
         dp[0][0] = true;
         for (int i = 0; i <= s.length(); i++) {
             for (int j = 1; j <= p.length(); j++) {
                 if (j > 1 && p.charAt(j - 1) == '*') {
-                    dp[i][j] = dp[i][j - 2] || (i > 0 && dp[i - 1][j] && check(s.charAt(i - 1), p.charAt(j - 2)));
+                    dp[i % 2][j] = dp[i % 2][j - 2] || (i > 0 && dp[(i - 1) % 2][j] && check(s.charAt(i - 1), p.charAt(j - 2)));
                 } else {
-                    dp[i][j] = i > 0 && dp[i - 1][j - 1] && check(s.charAt(i - 1), p.charAt(j - 1));
+                    dp[i % 2][j] = i > 0 && dp[(i - 1) % 2][j - 1] && check(s.charAt(i - 1), p.charAt(j - 1));
                 }
             }
         }
-        return dp[s.length()][p.length()];
+        return dp[s.length() % 2][p.length()];
     }
 
     private static boolean check(char x, char y) {

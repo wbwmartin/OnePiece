@@ -16,7 +16,6 @@ public class CreateMaxNumber {
     // https://www.hrwhisper.me/leetcode-create-maximum-number/
     // O((m + n)^3)
     public static int[] maxNumber(int[] nums1, int[] nums2, int k) {
-        // write your code here
         int m = nums1.length;
         int n = nums2.length;
         int[] res = new int[k];

@@ -11,7 +11,6 @@
 public class WiggleSort {
 
     public static void wiggleSort(int[] nums) {
-        // write your code here
         if (nums == null || nums.length == 0) {
             return;
         }
