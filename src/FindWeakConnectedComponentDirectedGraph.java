@@ -22,7 +22,6 @@ import java.util.*;
 public class FindWeakConnectedComponentDirectedGraph {
 
     public static List<List<Integer>> connectedSet2(ArrayList<DirectedGraphNode> nodes) {
-        // Write your code here
         List<List<Integer>> res = new ArrayList<>();
         Set<Integer> set = new HashSet<>();
         Map<Integer, List<Integer>> map = new HashMap<>();

@@ -2,249 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00eb12d7-99a9-45ff-bc09-b62bb8c4cb9a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BTSerialization.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FindPositionTarget.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MinPartition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RepeatString.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/AddBinary.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/AddBinary.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/AddOperators.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/AddOperators.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/AddTwoNumbers.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/AddTwoNumbers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/Anagrams.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/Anagrams.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BSTTwoSum.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BSTTwoSum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BTInorderTraversal.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BTInorderTraversal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BTLevelOrderTraversal.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BTLevelOrderTraversal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BTLevelOrderTraversalII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BTLevelOrderTraversalII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BTMaxPathSum.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BTMaxPathSum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BTMaxPathSumII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BTMaxPathSumII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BTPostorderTraversal.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BTPostorderTraversal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BTPreorderTraversal.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BTPreorderTraversal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BTRightSideView.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BTRightSideView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BTVerticalOrderTraversal.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BTVerticalOrderTraversal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BTZigzagTraversal.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BTZigzagTraversal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BalancedBT.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BalancedBT.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BasicCalculator.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BasicCalculator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BasicCalculatorII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BasicCalculatorII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BestTimeStock.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BestTimeStock.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BestTimeStockII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BestTimeStockII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BestTimeStockIII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BestTimeStockIII.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utils/Connection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utils/UnionFind.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnePiece/MinimumSpanningTree$Connection.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/OnePiece/MinimumSpanningTree$UnionFind.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BestTimeStockIV.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BestTimeStockIV.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BinaryRepresentation.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BinaryRepresentation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/BitANDNumberRange.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/BitANDNumberRange.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/Candy.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/Candy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ClimbingStairs.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ClimbingStairs.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/CloneGraph$UndirectedGraphNode.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/CloneGraph$UndirectedGraphNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/CloneGraph.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/CloneGraph.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/CombinationSum.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/CombinationSum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/CombinationSumII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/CombinationSumII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/CombinationSumIII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/CombinationSumIII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/CombinationSumIV.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/CombinationSumIV.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/CompareVersionNumbers.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/CompareVersionNumbers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ConstructBTInPostTraversal.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ConstructBTInPostTraversal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ConstructBTPreInTraversal.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ConstructBTPreInTraversal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ContainerMostWater.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ContainerMostWater.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ContainsDuplicate.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ContainsDuplicate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ContainsDuplicateII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ContainsDuplicateII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ContainsDuplicateIII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ContainsDuplicateIII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ConvertSortedArrayBST.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ConvertSortedArrayBST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ConvertSortedListBST.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ConvertSortedListBST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/CopyListRandomPointer$RandomListNode.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/CopyListRandomPointer$RandomListNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/CopyListRandomPointer.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/CopyListRandomPointer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/CountCompleteTreeNodes.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/CountCompleteTreeNodes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/CountPrimes.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/CountPrimes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/CountSay.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/CountSay.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/CourseSchedule.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/CourseSchedule.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/CourseScheduleII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/CourseScheduleII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/CreateMaxNumber.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/CreateMaxNumber.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/DecodeWays.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/DecodeWays.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/DeleteNodeList.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/DeleteNodeList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/DifferentWaysAddParentheses.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/DifferentWaysAddParentheses.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/DivideTwoIntegers.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/DivideTwoIntegers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/EditDistanceII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/EditDistanceII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/EvaluateReversePolish.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/EvaluateReversePolish.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ExcelSheetColumnNumber.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ExcelSheetColumnNumber.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ExcelSheetColumnTitle.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ExcelSheetColumnTitle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/FactorialTrailingZeroes.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/FactorialTrailingZeroes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/FindMinRotatedSortedArray.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/FindMinRotatedSortedArray.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/FindMinRotatedSortedArrayII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/FindMinRotatedSortedArrayII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/FirstMissingPositive.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/FirstMissingPositive.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/FlattenBTLinkedList.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/FlattenBTLinkedList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/FourSum.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/FourSum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/FourSumII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/FourSumII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/GasStation.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/GasStation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/Gcd.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/Gcd.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/GenerateParentheses.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/GenerateParentheses.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/GrayCode.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/GrayCode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/GroupAnagrams.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/GroupAnagrams.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/HappyNumber.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/HappyNumber.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/Heapify.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/Heapify.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/HouseRobber.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/HouseRobber.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/HouseRobberII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/HouseRobberII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/HouseRobberIII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/HouseRobberIII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/InsertInterval.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/InsertInterval.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/InsertNodeBST.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/InsertNodeBST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/InsertionSortList.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/InsertionSortList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/IntegerRoman.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/IntegerRoman.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/InterleavingString.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/InterleavingString.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/IntersectionTwoLinkedLists.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/IntersectionTwoLinkedLists.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/InvertBT.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/InvertBT.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/IsomorphicStrings.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/IsomorphicStrings.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/JumpGame.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/JumpGame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/JumpGameII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/JumpGameII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/KLargestElementArray.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/KLargestElementArray.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/KthSmallestElementBST.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/KthSmallestElementBST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/LargestNumber.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/LargestNumber.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/LargestRectangleHistogram.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/LargestRectangleHistogram.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/LengthLastWord.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/LengthLastWord.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/LetterCombinations.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/LetterCombinations.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ListCycle.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ListCycle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ListCycleII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ListCycleII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/LongestCommonPrefix.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/LongestCommonPrefix.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/LongestConsecutiveSequence.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/LongestConsecutiveSequence.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/LongestPalindromicSubstring.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/LongestPalindromicSubstring.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/LongestSubstringNoRepeatingCharacters.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/LongestSubstringNoRepeatingCharacters.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/LongestValidParentheses.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/LongestValidParentheses.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/LowestCommonAncestorBST.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/LowestCommonAncestorBST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/LowestCommonAncestorBT.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/LowestCommonAncestorBT.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MajorElements.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MajorElements.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MajorElementsII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MajorElementsII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MaxDepthBT.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MaxDepthBT.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MaxProductSubarray.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MaxProductSubarray.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MaxRectangle.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MaxRectangle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MaxSquare.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MaxSquare.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MaxSquareII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MaxSquareII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MaxSubarray.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MaxSubarray.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MaxSubarrayII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MaxSubarrayII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MedianTwoSortedArray.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MedianTwoSortedArray.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MergeIntervals.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MergeIntervals.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MergeKSortedLists.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MergeKSortedLists.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MergeSortedArray.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MergeSortedArray.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MergeTwoSortedArrays.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MergeTwoSortedArrays.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MergeTwoSortedLists.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MergeTwoSortedLists.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MinDepthBT.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MinDepthBT.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MinPathSum.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MinPathSum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MinSizeSubarraySum.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MinSizeSubarraySum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MinWindowSubstring.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MinWindowSubstring.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MultiplyString.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MultiplyString.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/NQueens.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/NQueens.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/NQueensII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/NQueensII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/NextPermutation.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/NextPermutation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/NumberDigitOne.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/NumberDigitOne.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/NumberIslands.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/NumberIslands.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/NumberIslandsII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/NumberIslandsII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/NumberOneBits.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/NumberOneBits.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/PalindromeLinkedList.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/PalindromeLinkedList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/PalindromeNumber.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/PalindromeNumber.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/PalindromePartitioning.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/PalindromePartitioning.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/PalindromePartitioningII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/PalindromePartitioningII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/PartitionList.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/PartitionList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/PascalTriangle.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/PascalTriangle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/PascalTriangleII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/PascalTriangleII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/PathSum.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/PathSum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/PathSumII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/PathSumII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/PathSumIII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/PathSumIII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/Permutation.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/Permutation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/PermutationII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/PermutationII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/PermutationSequence.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/PermutationSequence.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/PlusOne.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/PlusOne.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/PopulateNextRightPointer.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/PopulateNextRightPointer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/Pow.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/Pow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/PowerFour.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/PowerFour.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/PowerThree.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/PowerThree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/PowerTwo.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/PowerTwo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ProductArrayExceptSelf.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ProductArrayExceptSelf.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/RectangleArea.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/RectangleArea.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/RegularExpressionMatching.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/RegularExpressionMatching.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/RemoveDuplicateSortedArray.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/RemoveDuplicateSortedArray.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/RemoveDuplicateSortedArrayII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/RemoveDuplicateSortedArrayII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/RemoveDuplicateSortedList.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/RemoveDuplicateSortedList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/RemoveDuplicateSortedListII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/RemoveDuplicateSortedListII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/RemoveElements.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/RemoveElements.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/RemoveFibonacciIndexList.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/RemoveFibonacciIndexList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/RemoveListElements.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/RemoveListElements.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/RemoveNodeBST.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/RemoveNodeBST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/RemoveNthElementList.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/RemoveNthElementList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ReorderList.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ReorderList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ReverseBits.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ReverseBits.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ReverseInteger.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ReverseInteger.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ReverseList.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ReverseList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ReverseListII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ReverseListII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ReverseNodesKGroups.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ReverseNodesKGroups.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ReverseWordsString.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ReverseWordsString.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ReverseWordsStringII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ReverseWordsStringII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/RomanInteger.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/RomanInteger.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/RotateArray.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/RotateArray.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/RotateImage.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/RotateImage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/RotateList.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/RotateList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/SameTree.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/SameTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ScrambleString.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ScrambleString.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/Search2DMatrix.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/Search2DMatrix.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/Search2DMatrixII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/Search2DMatrixII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/SearchInsertPosition.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/SearchInsertPosition.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/SearchRange.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/SearchRange.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/SearchRotatedSortedArray.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/SearchRotatedSortedArray.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/SearchRotatedSortedArrayII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/SearchRotatedSortedArrayII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/SetMatrixZeroes.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/SetMatrixZeroes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ShortestPalindrome.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ShortestPalindrome.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ShortestWordDistance.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ShortestWordDistance.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ShortestWordDistanceIII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ShortestWordDistanceIII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/SimplifyPath.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/SimplifyPath.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/SingleNumber.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/SingleNumber.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/SingleNumberII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/SingleNumberII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/SingleNumberIII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/SingleNumberIII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/SortColors.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/SortColors.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/SortList.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/SortList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/SpiralMatrix.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/SpiralMatrix.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/SpiralMatrixII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/SpiralMatrixII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/StrStr.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/StrStr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/StringToInteger.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/StringToInteger.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/Subsets.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/Subsets.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/SubsetsII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/SubsetsII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/SubstringConcatenationAllWords.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/SubstringConcatenationAllWords.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/SudokuSolver.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/SudokuSolver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/SumRootLeafNumbers.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/SumRootLeafNumbers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/SummaryRanges.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/SummaryRanges.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/SurroundedRegions.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/SurroundedRegions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/SwapNodesPairs.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/SwapNodesPairs.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/SymmetricTree.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/SymmetricTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ThreeSum.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ThreeSum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ThreeSumCloset.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ThreeSumCloset.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/TrappingRainWater.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/TrappingRainWater.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/Triangle.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/Triangle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/Trie.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/Trie.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/TwoSum.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/TwoSum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/UniqueBST.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/UniqueBST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/UniqueBSTII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/UniqueBSTII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/UniquePath.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/UniquePath.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/UniquePathII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/UniquePathII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/Utils/ListNode.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/Utils/ListNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ValidAnagrams.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ValidAnagrams.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ValidPalindrome.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ValidPalindrome.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ValidParentheses.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ValidParentheses.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ValidSudoku.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ValidSudoku.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ValidateBST.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ValidateBST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/WiggleSort.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/WiggleSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/WordBreak.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/WordBreak.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/WordLadder.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/WordLadder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/WordLadderII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/WordLadderII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/WordSearch.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/WordSearch.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/WordSearchII.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/WordSearchII.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/WordsAbbreviation.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/WordsAbbreviation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/ZigzagConversion.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/ZigzagConversion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/FindWeakConnectedComponentDirectedGraph$DirectedGraphNode.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/FindWeakConnectedComponentDirectedGraph$DirectedGraphNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/FindWeakConnectedComponentDirectedGraph$UnionFind.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/FindWeakConnectedComponentDirectedGraph$UnionFind.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/FindWeakConnectedComponentDirectedGraph.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/FindWeakConnectedComponentDirectedGraph.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OnePiece/MinimumSpanningTree.class" afterPath="$PROJECT_DIR$/out/production/OnePiece/MinimumSpanningTree.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AddOperators.java" afterPath="$PROJECT_DIR$/src/AddOperators.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BTPreorderTraversal.java" afterPath="$PROJECT_DIR$/src/BTPreorderTraversal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CourseSchedule.java" afterPath="$PROJECT_DIR$/src/CourseSchedule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CourseScheduleII.java" afterPath="$PROJECT_DIR$/src/CourseScheduleII.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CreateMaxNumber.java" afterPath="$PROJECT_DIR$/src/CreateMaxNumber.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RegularExpressionMatching.java" afterPath="$PROJECT_DIR$/src/RegularExpressionMatching.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ReverseList.java" afterPath="$PROJECT_DIR$/src/ReverseList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Search2DMatrixII.java" afterPath="$PROJECT_DIR$/src/Search2DMatrixII.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SortList.java" afterPath="$PROJECT_DIR$/src/SortList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SpiralMatrix.java" afterPath="$PROJECT_DIR$/src/SpiralMatrix.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utils/ListNode.java" afterPath="$PROJECT_DIR$/src/Utils/ListNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WiggleSort.java" afterPath="$PROJECT_DIR$/src/WiggleSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WildcardMatching.java" afterPath="$PROJECT_DIR$/src/WildcardMatching.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WordsAbbreviation.java" afterPath="$PROJECT_DIR$/src/WordsAbbreviation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BestTimeStockIV.java" afterPath="$PROJECT_DIR$/src/BestTimeStockIV.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FindWeakConnectedComponentDirectedGraph.java" afterPath="$PROJECT_DIR$/src/FindWeakConnectedComponentDirectedGraph.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MinimumSpanningTree.java" afterPath="$PROJECT_DIR$/src/MinimumSpanningTree.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -256,45 +26,107 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CourseSchedule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CourseSchedule.java">
+      <file leaf-file-name="MinimumSpanningTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MinimumSpanningTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            <state relative-caret-position="360">
+              <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindWeakConnectedComponentDirectedGraph.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FindWeakConnectedComponentDirectedGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1050">
+              <caret line="70" column="35" lean-forward="false" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinPartition.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MinPartition.java">
+      <file leaf-file-name="GameOfLife.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GameOfLife.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+            <state relative-caret-position="270">
+              <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
               <folding>
-                <element signature="e#0#1301#0" expanded="true" />
+                <element signature="e#0#3077#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Utils/ListNode.java">
+      <file leaf-file-name="BestTimeStockIV.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BestTimeStockIV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="330">
+              <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
-                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#0#1483#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CourseScheduleII.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CourseScheduleII.java">
+      <file leaf-file-name="WildcardMatching.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WildcardMatching.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+            <state relative-caret-position="122">
+              <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopKFrequentElements.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TopKFrequentElements.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlattenNestedListIterator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FlattenNestedListIterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-459">
+              <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Flatten2DVector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Flatten2DVector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountPrimes.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CountPrimes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindDuplicateNumber.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FindDuplicateNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -332,6 +164,13 @@
       <find>// unit test</find>
       <find>\n    \/\/ unit test</find>
       <find>partition</find>
+      <find>connection</find>
+      <find>unionfind</find>
+      <find>getordefault</find>
+      <find>map.entry</find>
+      <find>iterator</find>
+      <find>\/\/ Initialize your data structure here\n</find>
+      <find>prime</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -348,11 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/FindPeakElementII.java" />
-        <option value="$PROJECT_DIR$/src/FindPeakElement.java" />
-        <option value="$PROJECT_DIR$/src/MaxAverageSubarray.java" />
-        <option value="$PROJECT_DIR$/src/BuildingOutlines.java" />
-        <option value="$PROJECT_DIR$/src/CopyBooks.java" />
         <option value="$PROJECT_DIR$/src/NumAirplanesSky.java" />
         <option value="$PROJECT_DIR$/src/WoodCut.java" />
         <option value="$PROJECT_DIR$/src/LongestIncreasingContinuousSubsequencesII.java" />
@@ -399,6 +233,11 @@
         <option value="$PROJECT_DIR$/src/Utils/ListNode.java" />
         <option value="$PROJECT_DIR$/src/ReverseList.java" />
         <option value="$PROJECT_DIR$/src/MinPartition.java" />
+        <option value="$PROJECT_DIR$/src/Utils/Connection.java" />
+        <option value="$PROJECT_DIR$/src/MinimumSpanningTree.java" />
+        <option value="$PROJECT_DIR$/src/FindWeakConnectedComponentDirectedGraph.java" />
+        <option value="$PROJECT_DIR$/src/Utils/UnionFind.java" />
+        <option value="$PROJECT_DIR$/src/BestTimeStockIV.java" />
       </list>
     </option>
   </component>
@@ -424,8 +263,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -438,12 +275,20 @@
               <item name="OnePiece" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OnePiece" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnePiece" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -464,7 +309,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinPartition">
+  <component name="RunManager" selected="Application.BestTimeStockIV">
     <configuration name="BTPostorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="BTPostorderTraversal" />
@@ -479,9 +324,9 @@
       <module name="OnePiece" />
       <envs />
     </configuration>
-    <configuration name="BTSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="BestTimeStockIV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="BTSerialization" />
+      <option name="MAIN_CLASS_NAME" value="BestTimeStockIV" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -493,9 +338,9 @@
       <module name="OnePiece" />
       <envs />
     </configuration>
-    <configuration name="FindPositionTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="FindWeakConnectedComponentDirectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="FindPositionTarget" />
+      <option name="MAIN_CLASS_NAME" value="FindWeakConnectedComponentDirectedGraph" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -521,9 +366,9 @@
       <module name="OnePiece" />
       <envs />
     </configuration>
-    <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MinimumSpanningTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ReverseList" />
+      <option name="MAIN_CLASS_NAME" value="MinimumSpanningTree" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -617,19 +462,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.BTSerialization" />
-      <item index="1" class="java.lang.String" itemvalue="Application.FindPositionTarget" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ReverseList" />
-      <item index="3" class="java.lang.String" itemvalue="Application.BTPostorderTraversal" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MinPartition" />
+      <item index="0" class="java.lang.String" itemvalue="Application.BTPostorderTraversal" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MinPartition" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MinimumSpanningTree" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FindWeakConnectedComponentDirectedGraph" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BestTimeStockIV" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MinPartition" />
-        <item index="1" class="java.lang.String" itemvalue="Application.BTPostorderTraversal" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ReverseList" />
-        <item index="3" class="java.lang.String" itemvalue="Application.FindPositionTarget" />
-        <item index="4" class="java.lang.String" itemvalue="Application.BTSerialization" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BestTimeStockIV" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FindWeakConnectedComponentDirectedGraph" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MinimumSpanningTree" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MinPartition" />
+        <item index="4" class="java.lang.String" itemvalue="Application.BTPostorderTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -655,18 +500,17 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23021002" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23021002" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24071082" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24474959" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48295453" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -678,6 +522,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -686,87 +531,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BackpackVI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#1146#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BackpackIV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/KSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StoneGameII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EditDistance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SubTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FindMissingNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#889#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MinAdjustmentCost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FindMissingNumberII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LongestCommonPrefix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -831,14 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WildcardMatching.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/WiggleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -851,14 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FlattenNestedListIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-106">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -912,14 +665,6 @@
           <folding>
             <element signature="e#0#1530#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Flatten2DVector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="18" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1030,7 +775,7 @@
         <state relative-caret-position="90">
           <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding>
-            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1109,7 +854,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CourseSchedule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
+        <state relative-caret-position="435">
           <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
           <folding />
         </state>
@@ -1117,11 +862,125 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MinPartition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        <state relative-caret-position="135">
+          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding>
             <element signature="e#0#1301#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils/UnionFind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FindWeakConnectedComponentDirectedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="70" column="35" lean-forward="false" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameOfLife.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#3077#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BestTimeStockIV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#1483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FindDuplicateNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MinimumSpanningTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WildcardMatching.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TopKFrequentElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FlattenNestedListIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Flatten2DVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CountPrimes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
