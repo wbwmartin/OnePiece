@@ -24,7 +24,7 @@ import java.util.List;
 public class BTPaths {
 
     public static List<String> binaryTreePaths(TreeNode root) {
-        List<String> res = new ArrayList<String>();
+        List<String> res = new ArrayList<>();
         if (root == null) {
             return res;
         }

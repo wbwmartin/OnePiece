@@ -63,21 +63,10 @@ public class BTZigzagTraversal {
     }
 
     public static void main(String[] args) {
-        TreeNode a = new TreeNode(1);
-        TreeNode b = new TreeNode(2);
-        TreeNode c = new TreeNode(3);
-        TreeNode d = new TreeNode(4);
-        TreeNode e = new TreeNode(5);
-        a.left = b;
-        a.right = c;
-        b.left = d;
-        b.right = e;
-        List<List<Integer>> res = zigzagLevelOrder(a); // 1 | 3 2 | 4 5
-        for (List<Integer> i : res) {
-            for (Integer j : i) {
-                System.out.print(j + " ");
-            }
-            System.out.println();
+        TreeNode a = TreeNode.createBT();
+        List<List<Integer>> res = zigzagLevelOrder(a);
+        for (List<Integer> list : res) {
+            System.out.println(list); // 1 | 3 2 | 4 5
         }
     }
 }

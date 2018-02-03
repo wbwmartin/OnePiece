@@ -103,19 +103,7 @@ public class BTInorderTraversal {
     }
 
     public static void main(String[] args) {
-        TreeNode a = new TreeNode(1);
-        TreeNode b = new TreeNode(2);
-        TreeNode c = new TreeNode(3);
-        TreeNode d = new TreeNode(4);
-        TreeNode e = new TreeNode(5);
-        a.left = b;
-        a.right = c;
-        b.left = d;
-        b.right = e;
-
-        List<Integer> res = inorderTraversal4(a);
-        for (Integer i : res) {
-            System.out.println(i);
-        }
+        TreeNode a = TreeNode.createBT();
+        System.out.println(inorderTraversal4(a)); // 4 2 5 1 3
     }
 }

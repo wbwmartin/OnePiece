@@ -45,24 +45,8 @@ public class SameTree {
     }
 
     public static void main(String[] args) {
-        TreeNode a = new TreeNode(1);
-        TreeNode b = new TreeNode(2);
-        TreeNode c = new TreeNode(3);
-        TreeNode d = new TreeNode(4);
-        TreeNode e = new TreeNode(5);
-        a.left = b;
-        a.right = c;
-        b.left = d;
-        b.right = e;
-        TreeNode a2 = new TreeNode(1);
-        TreeNode b2 = new TreeNode(2);
-        TreeNode c2 = new TreeNode(3);
-        TreeNode d2 = new TreeNode(4);
-        TreeNode e2 = new TreeNode(5);
-        a2.left = b2;
-        a2.right = c2;
-        b2.left = d2;
-        b2.right = e2;
+        TreeNode a = TreeNode.createBT();
+        TreeNode a2 = TreeNode.createBT();
         System.out.println(isSameTree(a, a2)); // true
         System.out.println(isSameTree2(a, a2)); // true
     }
